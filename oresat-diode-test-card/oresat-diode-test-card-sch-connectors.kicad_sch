@@ -787,128 +787,6 @@
 				)
 			)
 		)
-		(symbol "oresat-connectors:J-MOLEX-SMPM-73300-002X"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "733000020"
-				(at 5.08 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMPM Connector Plug, Male Pin 50Ohm Board Edge, Cutout; Surface Mount Solder"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "J-MOLEX-SMPM-73300-002X_1_0"
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 3.556 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "SHLD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "SHLD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "SIG"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "SIG"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "oresat-connectors:J-SAMTEC-TFM-120-01-L-D-RA"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2133,124 +2011,6 @@
 				)
 			)
 		)
-		(symbol "oresat-connectors:U.FL2PIN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J2"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "U.FL"
-				(at -2.54 -7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-minusz-end-card:U.FL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U.FL2PIN_1_0"
-				(circle
-					(center 0 0)
-					(radius 1.1359)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 0 180)
-					(length 5.08)
-					(name "SIGNAL"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "FEED"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "oresat-pcbs:ORESAT-CARD-V1.3-3RF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2534,762 +2294,6 @@
 				)
 			)
 		)
-		(symbol "oresat-proto-card-eagle-import:J-SAMTEC-TFM-110-X1-XXX-D-RA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -6.35 26.035 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -6.35 -30.48 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-proto-card:J-SAMTEC-TFM-110-X1-XXX-D-RA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "J-SAMTEC-TFM-110-X1-XXX-D-RA_1_0"
-				(polyline
-					(pts
-						(xy -6.35 -27.94) (xy 1.27 -27.94)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 25.4) (xy -6.35 -27.94)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -27.94) (xy 1.27 25.4)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 25.4) (xy -6.35 25.4)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 22.86 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "11"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "12"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "13"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "14"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "15"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "16"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "17"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "18"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "19"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 20.32 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "20"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 17.78 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 15.24 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 12.7 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 10.16 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 7.62 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "oresat-proto-card-eagle-import:PINHD-1X10"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -6.35 13.335 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -6.35 -17.78 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-proto-card:1X10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PINHD-1X10_1_0"
-				(polyline
-					(pts
-						(xy -6.35 -15.24) (xy 1.27 -15.24)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 12.7) (xy -6.35 -15.24)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -15.24) (xy 1.27 12.7)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 12.7) (xy -6.35 12.7)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 10.16 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 7.62 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "oresat-proto-card-eagle-import:STAND-OFFTIGHT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3381,22 +2385,10 @@
 		(uuid "14e919d3-1350-4d18-aa2f-1cb2b11bf067")
 	)
 	(junction
-		(at 86.36 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18c531c8-d300-453f-9770-afe9c5b3e0c5")
-	)
-	(junction
 		(at 85.09 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f260495-ca5d-4f27-8960-0d81389cd3ec")
-	)
-	(junction
-		(at 86.36 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f690122-aa35-427b-8748-c44709401d02")
 	)
 	(junction
 		(at 85.09 96.52)
@@ -3409,12 +2401,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21c597dd-d10a-4b13-97a3-ca188deea93f")
-	)
-	(junction
-		(at 86.36 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23b60042-e635-4854-904b-cb574ace2385")
 	)
 	(junction
 		(at 85.09 109.22)
@@ -3465,12 +2451,6 @@
 		(uuid "6758902a-ab7d-451c-b50b-6ad8c03f2bdb")
 	)
 	(junction
-		(at 86.36 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ae189af-6af2-4f2c-97dd-bfb32323db5c")
-	)
-	(junction
 		(at 85.09 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3489,34 +2469,10 @@
 		(uuid "80558498-8933-4899-9047-6c849a9b6102")
 	)
 	(junction
-		(at 86.36 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82cbe8a3-8f8f-48a3-a338-83e57aa51d68")
-	)
-	(junction
-		(at 86.36 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "945887f0-c92a-407e-ba10-593190015b69")
-	)
-	(junction
 		(at 85.09 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af65988a-ed81-41fd-8353-790222bf5dff")
-	)
-	(junction
-		(at 86.36 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b45172ef-c90f-4f9c-bed2-967a1a33c435")
-	)
-	(junction
-		(at 86.36 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5e8e206-56f7-4796-9bf4-07591ec983f8")
 	)
 	(junction
 		(at 85.09 116.84)
@@ -3525,22 +2481,10 @@
 		(uuid "d80096a1-17a8-4c33-9762-ded980cc0ae3")
 	)
 	(junction
-		(at 86.36 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df9b4af9-3742-4139-94f5-22479097cfa8")
-	)
-	(junction
 		(at 85.09 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e65fd2c3-4468-469b-95d6-c62cd5ca2b43")
-	)
-	(junction
-		(at 86.36 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc3dc318-a700-444b-a23b-7af6648e621c")
 	)
 	(wire
 		(pts
@@ -3584,26 +2528,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 200.66) (xy 194.31 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0b5f4203-91c7-4922-852d-5e965527cb7d")
-	)
-	(wire
-		(pts
-			(xy 114.3 180.34) (xy 114.3 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0cba8032-5fc2-487f-8865-53a65cae250d")
-	)
-	(wire
-		(pts
 			(xy 85.09 111.76) (xy 85.09 109.22)
 		)
 		(stroke
@@ -3634,16 +2558,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 205.74) (xy 116.84 198.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "13d4f58a-d33a-4afd-874c-d372d888fc47")
-	)
-	(wire
-		(pts
 			(xy 85.09 88.9) (xy 139.7 88.9)
 		)
 		(stroke
@@ -3651,16 +2565,6 @@
 			(type solid)
 		)
 		(uuid "158fc195-8d56-49af-b779-9b529a535954")
-	)
-	(wire
-		(pts
-			(xy 111.76 187.96) (xy 194.31 187.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "17796087-4342-4aac-8d96-cf7ba5549ed3")
 	)
 	(wire
 		(pts
@@ -3684,26 +2588,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 208.28) (xy 86.36 205.74)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1856991b-a2e8-4e93-8ea2-103cb07ec8d6")
-	)
-	(wire
-		(pts
-			(xy 314.96 134.62) (xy 314.96 137.16)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1900184f-0450-45cc-8f40-8a1881d6d6c7")
-	)
-	(wire
-		(pts
 			(xy 85.09 121.92) (xy 85.09 119.38)
 		)
 		(stroke
@@ -3711,36 +2595,6 @@
 			(type solid)
 		)
 		(uuid "1a149fd6-4a91-4070-afd1-2ddb2e5a71cd")
-	)
-	(wire
-		(pts
-			(xy 78.74 190.5) (xy 86.36 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1ab6b21a-9a12-41de-b25a-97cfb02c803b")
-	)
-	(wire
-		(pts
-			(xy 86.36 205.74) (xy 116.84 205.74)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1b4543f0-80ca-4d40-a8db-f65a27b517fe")
-	)
-	(wire
-		(pts
-			(xy 86.36 177.8) (xy 86.36 175.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1b985d33-62cf-42c7-a5e1-07f27781f195")
 	)
 	(wire
 		(pts
@@ -3754,16 +2608,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 154.94) (xy 297.18 152.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1c60331a-1195-4318-84c3-1df002a43a68")
-	)
-	(wire
-		(pts
 			(xy 152.4 125.73) (xy 203.2 125.73)
 		)
 		(stroke
@@ -3771,26 +2615,6 @@
 			(type default)
 		)
 		(uuid "1d254dab-e62f-46af-a84d-48139bea8037")
-	)
-	(wire
-		(pts
-			(xy 297.18 119.38) (xy 297.18 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1e1a54fe-a18d-4985-a0ef-de7b4339fb3f")
-	)
-	(wire
-		(pts
-			(xy 114.3 195.58) (xy 194.31 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "23960b02-1b2c-45d3-8aa6-57a45a6e2a8a")
 	)
 	(wire
 		(pts
@@ -3834,16 +2658,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 195.58) (xy 111.76 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2e048324-8dee-4d82-b2e4-7de322afef18")
-	)
-	(wire
-		(pts
 			(xy 203.2 114.3) (xy 203.2 116.84)
 		)
 		(stroke
@@ -3871,16 +2685,6 @@
 			(type solid)
 		)
 		(uuid "31edcf66-6ebf-46d1-8769-808aed8a2250")
-	)
-	(wire
-		(pts
-			(xy 78.74 210.82) (xy 86.36 210.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "322f6398-40e5-4f8d-a7c3-6c17ec484ae9")
 	)
 	(wire
 		(pts
@@ -3931,16 +2735,6 @@
 			(type solid)
 		)
 		(uuid "34f6677b-25b5-4dcf-a1f0-f9449f5b62a5")
-	)
-	(wire
-		(pts
-			(xy 78.74 187.96) (xy 86.36 187.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "35361466-e061-40e3-8da8-394ca41b7d3f")
 	)
 	(wire
 		(pts
@@ -4014,16 +2808,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 203.2) (xy 86.36 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3b30e7e8-4e11-4375-bd73-1ba2ba2d85fb")
-	)
-	(wire
-		(pts
 			(xy 149.86 127) (xy 190.5 127)
 		)
 		(stroke
@@ -4081,16 +2865,6 @@
 			(type solid)
 		)
 		(uuid "42339b57-2754-4619-83b8-318923283d7d")
-	)
-	(wire
-		(pts
-			(xy 86.36 193.04) (xy 86.36 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4333c6a1-f6ff-443f-b1e2-020cd452d86c")
 	)
 	(wire
 		(pts
@@ -4154,36 +2928,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 185.42) (xy 86.36 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4b622b69-98d3-4ff6-aed3-75f40b845fdc")
-	)
-	(wire
-		(pts
-			(xy 309.88 111.76) (xy 302.26 111.76)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4be15992-e459-4ad2-8779-829a5ab7f612")
-	)
-	(wire
-		(pts
-			(xy 116.84 182.88) (xy 194.31 182.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4ca803ba-7087-40fd-bc88-e0f7a0055ca1")
-	)
-	(wire
-		(pts
 			(xy 78.74 142.24) (xy 96.52 142.24)
 		)
 		(stroke
@@ -4214,36 +2958,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 137.16) (xy 297.18 134.62)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4f6be478-8b08-4a31-aa0f-713b8ead957d")
-	)
-	(wire
-		(pts
-			(xy 111.76 185.42) (xy 111.76 187.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "506a629e-39c7-4131-bc67-1a2bac1ee7f5")
-	)
-	(wire
-		(pts
-			(xy 86.36 210.82) (xy 119.38 210.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "528d64be-ed01-4ae3-a6e7-157de82a56d7")
-	)
-	(wire
-		(pts
 			(xy 85.09 96.52) (xy 78.74 96.52)
 		)
 		(stroke
@@ -4251,16 +2965,6 @@
 			(type solid)
 		)
 		(uuid "52ce41ef-9a16-4ba0-a690-a1c5fb737f33")
-	)
-	(wire
-		(pts
-			(xy 78.74 170.18) (xy 86.36 170.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5395540c-d57f-4f5f-9f0b-9492057ec8d4")
 	)
 	(wire
 		(pts
@@ -4274,36 +2978,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 177.8) (xy 86.36 177.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "59d5874a-009b-4f64-a5fe-f26e88456022")
-	)
-	(wire
-		(pts
-			(xy 78.74 203.2) (xy 86.36 203.2)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5b34507f-d08e-4343-ad1c-48b5ff3c4329")
-	)
-	(wire
-		(pts
-			(xy 302.26 129.54) (xy 309.88 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5ca8030d-b433-43a5-95f0-8031007d9bd3")
-	)
-	(wire
-		(pts
 			(xy 78.74 119.38) (xy 85.09 119.38)
 		)
 		(stroke
@@ -4311,16 +2985,6 @@
 			(type solid)
 		)
 		(uuid "5d6cecc9-6dff-404f-91de-454d6a531881")
-	)
-	(wire
-		(pts
-			(xy 78.74 195.58) (xy 86.36 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "60248c42-8424-4d6e-a3cd-e290337efd6a")
 	)
 	(wire
 		(pts
@@ -4344,26 +3008,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 200.66) (xy 114.3 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "61c07ded-1927-4d3a-8b22-a1d9f959dd4f")
-	)
-	(wire
-		(pts
-			(xy 314.96 154.94) (xy 314.96 152.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "620b96ff-2ebd-46af-bfd6-7a6b9cac6bf0")
-	)
-	(wire
-		(pts
 			(xy 85.09 106.68) (xy 85.09 104.14)
 		)
 		(stroke
@@ -4374,16 +3018,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 210.82) (xy 119.38 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "68bb4c85-6630-45d9-b32f-ea13b172be91")
-	)
-	(wire
-		(pts
 			(xy 85.09 144.78) (xy 190.5 144.78)
 		)
 		(stroke
@@ -4391,16 +3025,6 @@
 			(type solid)
 		)
 		(uuid "6aa21dd6-1eca-4c13-b275-8fb4f2cf2c48")
-	)
-	(wire
-		(pts
-			(xy 78.74 200.66) (xy 86.36 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6c02c1df-7932-4073-acd6-b61b8135a19d")
 	)
 	(wire
 		(pts
@@ -4444,16 +3068,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 180.34) (xy 114.3 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7ab802f6-d942-42f8-81cd-a92214b9763b")
-	)
-	(wire
-		(pts
 			(xy 101.6 78.74) (xy 85.09 78.74)
 		)
 		(stroke
@@ -4471,16 +3085,6 @@
 			(type solid)
 		)
 		(uuid "7c86903e-a5d1-4d50-b6a0-449b260d62f5")
-	)
-	(wire
-		(pts
-			(xy 78.74 175.26) (xy 86.36 175.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7e9f075f-49ad-412c-bfc4-b3676490590b")
 	)
 	(wire
 		(pts
@@ -4504,16 +3108,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 195.58) (xy 111.76 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "806dc57b-6e8e-4879-a19e-82d88d2e979a")
-	)
-	(wire
-		(pts
 			(xy 85.09 91.44) (xy 78.74 91.44)
 		)
 		(stroke
@@ -4521,26 +3115,6 @@
 			(type solid)
 		)
 		(uuid "808c274b-fea2-4ce0-8edf-40d791d0f343")
-	)
-	(wire
-		(pts
-			(xy 119.38 170.18) (xy 119.38 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "815354bd-bb96-487f-a31a-217bb690d3ae")
-	)
-	(wire
-		(pts
-			(xy 86.36 172.72) (xy 86.36 170.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "825a7675-b42b-4e3e-a6b4-7b9127815508")
 	)
 	(wire
 		(pts
@@ -4594,46 +3168,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 177.8) (xy 194.31 177.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "884165b0-03df-4d73-8ea2-b2bdf41751f8")
-	)
-	(wire
-		(pts
-			(xy 78.74 172.72) (xy 86.36 172.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "88fe73f3-e1bb-41ee-ba2c-5ed1c07a5d81")
-	)
-	(wire
-		(pts
-			(xy 114.3 185.42) (xy 194.31 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "89892b2d-6cf5-4697-b789-2d2f834adc3c")
-	)
-	(wire
-		(pts
-			(xy 86.36 187.96) (xy 86.36 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8a3bf162-4d00-4839-a4a4-54ed28570998")
-	)
-	(wire
-		(pts
 			(xy 101.6 83.82) (xy 85.09 83.82)
 		)
 		(stroke
@@ -4661,26 +3195,6 @@
 			(type solid)
 		)
 		(uuid "8adf4820-c447-49ac-a5bf-b6b12154d1e3")
-	)
-	(wire
-		(pts
-			(xy 78.74 205.74) (xy 86.36 205.74)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8d5cf5ed-867b-40fb-9d1f-07adfe7baa27")
-	)
-	(wire
-		(pts
-			(xy 86.36 182.88) (xy 86.36 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8e0d08e2-7546-4a73-b99e-299a9cf0dab5")
 	)
 	(wire
 		(pts
@@ -4721,16 +3235,6 @@
 			(type solid)
 		)
 		(uuid "90aca790-5557-4741-a302-b81836139a38")
-	)
-	(wire
-		(pts
-			(xy 111.76 193.04) (xy 194.31 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "90be8ce9-8362-45c9-b3d0-5f22c1076e59")
 	)
 	(wire
 		(pts
@@ -4794,16 +3298,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 147.32) (xy 309.88 147.32)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "977803d4-bf04-46f8-a6fa-a3bb8866c41a")
-	)
-	(wire
-		(pts
 			(xy 127 138.43) (xy 203.2 138.43)
 		)
 		(stroke
@@ -4824,26 +3318,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 165.1) (xy 121.92 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9a8446e6-a395-46fd-8976-a72695ba6723")
-	)
-	(wire
-		(pts
-			(xy 314.96 119.38) (xy 314.96 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9bbcd6bd-7845-4c74-bdd7-6cdec8943a6a")
-	)
-	(wire
-		(pts
 			(xy 99.06 114.3) (xy 85.09 114.3)
 		)
 		(stroke
@@ -4851,36 +3325,6 @@
 			(type default)
 		)
 		(uuid "9c3314a1-9646-459a-aeeb-793cb0610c4f")
-	)
-	(wire
-		(pts
-			(xy 116.84 175.26) (xy 116.84 182.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9ce35e5b-3242-49e3-934e-f7fb72f7c2ef")
-	)
-	(wire
-		(pts
-			(xy 121.92 165.1) (xy 121.92 177.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9fcd2c1b-d85b-4c08-a957-b1ab66287c5e")
-	)
-	(wire
-		(pts
-			(xy 78.74 180.34) (xy 86.36 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a19929c0-17a9-42e1-862d-bcc9aa749255")
 	)
 	(wire
 		(pts
@@ -4932,16 +3376,6 @@
 		)
 		(uuid "a4ca41e6-625e-4808-bf79-3307ce3c0dbf")
 	)
-	(wire
-		(pts
-			(xy 78.74 182.88) (xy 86.36 182.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ac1952cc-11b5-4d6a-9bec-2f83e25cf60e")
-	)
 	(polyline
 		(pts
 			(xy 115.57 87.63) (xy 113.03 87.63)
@@ -4951,16 +3385,6 @@
 			(type solid)
 		)
 		(uuid "af7109cb-9f4b-49e4-9901-b89dd9d7125b")
-	)
-	(wire
-		(pts
-			(xy 78.74 193.04) (xy 86.36 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "afc9a7be-cba5-4991-80c3-9c62e2d04580")
 	)
 	(wire
 		(pts
@@ -4974,16 +3398,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 170.18) (xy 119.38 170.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b51b453a-e905-4a87-b6fc-c0fa8900d887")
-	)
-	(wire
-		(pts
 			(xy 190.5 137.16) (xy 203.2 137.16)
 		)
 		(stroke
@@ -4991,26 +3405,6 @@
 			(type solid)
 		)
 		(uuid "b6399424-ac25-4b11-924c-d99bb9dc13d5")
-	)
-	(polyline
-		(pts
-			(xy 177.8 218.44) (xy 177.8 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b641214b-d61c-4764-9eda-dfabbf0b9dfb")
-	)
-	(wire
-		(pts
-			(xy 78.74 198.12) (xy 86.36 198.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b7486f80-96d1-4ca3-b56d-14741a6f329f")
 	)
 	(wire
 		(pts
@@ -5094,26 +3488,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 165.1) (xy 86.36 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c7a4b331-e112-4726-bec6-4a3a1afbbdb6")
-	)
-	(wire
-		(pts
-			(xy 86.36 198.12) (xy 86.36 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c7e6cba1-ec18-43a6-9f11-efa8c84e1a94")
-	)
-	(wire
-		(pts
 			(xy 85.09 91.44) (xy 85.09 88.9)
 		)
 		(stroke
@@ -5121,16 +3495,6 @@
 			(type solid)
 		)
 		(uuid "c9a228c8-8ba4-4c40-9603-def0f202699d")
-	)
-	(wire
-		(pts
-			(xy 78.74 208.28) (xy 86.36 208.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cb15044e-88a9-46dd-96df-7f3e3ef15a60")
 	)
 	(wire
 		(pts
@@ -5151,26 +3515,6 @@
 			(type default)
 		)
 		(uuid "cdc654fe-fc9e-4af3-a0c2-a37ad187a72d")
-	)
-	(wire
-		(pts
-			(xy 119.38 180.34) (xy 194.31 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cf179005-dc46-4603-81c2-b1816c9071f2")
-	)
-	(wire
-		(pts
-			(xy 86.36 167.64) (xy 86.36 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d036cb6b-3d38-4647-91ff-fd609603ef65")
 	)
 	(wire
 		(pts
@@ -5234,16 +3578,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 213.36) (xy 86.36 213.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dd651606-a9c7-4c9f-9191-3a2cab994fa9")
-	)
-	(wire
-		(pts
 			(xy 85.09 78.74) (xy 78.74 78.74)
 		)
 		(stroke
@@ -5304,16 +3638,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 190.5) (xy 194.31 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e4d560bd-6ec3-4b1d-a079-6cdd65bb363e")
-	)
-	(wire
-		(pts
 			(xy 85.09 81.28) (xy 85.09 78.74)
 		)
 		(stroke
@@ -5321,36 +3645,6 @@
 			(type solid)
 		)
 		(uuid "e4e33d75-ab4b-4bb1-90b1-93c218c31d44")
-	)
-	(polyline
-		(pts
-			(xy 218.44 218.44) (xy 177.8 218.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e8056aa9-105d-4895-8907-167164258942")
-	)
-	(wire
-		(pts
-			(xy 86.36 200.66) (xy 114.3 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e813303e-f681-4e3d-beec-9a437c9e2a51")
-	)
-	(wire
-		(pts
-			(xy 86.36 175.26) (xy 116.84 175.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e8fe9127-d507-4618-bcea-ee82b9b24dd9")
 	)
 	(wire
 		(pts
@@ -5374,16 +3668,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 167.64) (xy 86.36 167.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "efa8ffd7-b9e7-4b9e-809d-7b915dce5ba1")
-	)
-	(wire
-		(pts
 			(xy 139.7 88.9) (xy 139.7 130.81)
 		)
 		(stroke
@@ -5391,16 +3675,6 @@
 			(type solid)
 		)
 		(uuid "f2790c8b-7c82-4b81-b9aa-60944067b303")
-	)
-	(polyline
-		(pts
-			(xy 177.8 93.98) (xy 218.44 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f32de866-4a1b-42d2-819c-0f486fee7c2d")
 	)
 	(wire
 		(pts
@@ -5414,26 +3688,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 185.42) (xy 111.76 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f66bf785-7cd8-4d15-831c-3e0830676ab9")
-	)
-	(wire
-		(pts
-			(xy 86.36 213.36) (xy 86.36 210.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f69b06a0-3f71-475a-951a-577948907562")
-	)
-	(wire
-		(pts
 			(xy 85.09 96.52) (xy 88.9 96.52)
 		)
 		(stroke
@@ -5444,16 +3698,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 198.12) (xy 194.31 198.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f8efdd53-bf85-4566-8ae0-9047e72617fc")
-	)
-	(wire
-		(pts
 			(xy 137.16 93.98) (xy 137.16 132.08)
 		)
 		(stroke
@@ -5461,16 +3705,6 @@
 			(type solid)
 		)
 		(uuid "f99460f6-e121-452d-b051-1c4e5289cb7a")
-	)
-	(polyline
-		(pts
-			(xy 218.44 93.98) (xy 218.44 218.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f9c8cf18-358d-499a-82d7-329bfea14de9")
 	)
 	(wire
 		(pts
@@ -5491,17 +3725,6 @@
 			(type solid)
 		)
 		(uuid "ffd5f1a3-40a4-4466-8d4e-4e064efaae8e")
-	)
-	(text "Auxiliary Connector"
-		(exclude_from_sim no)
-		(at 73.66 203.2 90)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c81c198-3dab-4fcd-afab-8e87c72c5416")
 	)
 	(text "Main OreSat Card Connector"
 		(exclude_from_sim no)
@@ -5558,17 +3781,6 @@
 		)
 		(uuid "ca9a7a27-1c9b-4b73-9d60-960953d0a38c")
 	)
-	(text "RF connections and test points"
-		(exclude_from_sim no)
-		(at 274.32 102.87 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec3fd0c6-5cd6-4cad-901c-86b19201a6ec")
-	)
 	(label "SPARE10"
 		(at 86.36 71.12 0)
 		(fields_autoplaced yes)
@@ -5590,39 +3802,6 @@
 			(justify left bottom)
 		)
 		(uuid "1af6a7bf-83a1-4748-ae89-36d12fe13ac7")
-	)
-	(label "AUX-6"
-		(at 88.9 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a8965aa-d76f-4ae8-a8a7-81df279102a5")
-	)
-	(label "AUX-3"
-		(at 88.9 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c1939d4-e32c-4a64-b9e9-ee7a9cc10b22")
-	)
-	(label "AUX-4"
-		(at 88.9 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "5226b35f-0b5f-4204-9dfb-845ff5c29b10")
 	)
 	(label "SPARE1"
 		(at 86.36 48.26 0)
@@ -5668,28 +3847,6 @@
 		)
 		(uuid "60cc75b9-ce68-4866-8bd9-92d8eb0805fb")
 	)
-	(label "AUX-1"
-		(at 88.9 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "714a686d-7ce2-4d9f-bd13-a6052910e81e")
-	)
-	(label "AUX-2"
-		(at 88.9 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "74976657-e3b9-4ccb-abeb-8ca938f9d463")
-	)
 	(label "SPARE5"
 		(at 86.36 58.42 0)
 		(fields_autoplaced yes)
@@ -5711,17 +3868,6 @@
 			(justify left bottom)
 		)
 		(uuid "91274c77-616b-49cf-b79c-399420eaaeca")
-	)
-	(label "AUX-5"
-		(at 88.9 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c284095-0e47-42a0-a0cd-fa6549c0090a")
 	)
 	(label "SPARE3"
 		(at 86.36 53.34 0)
@@ -5767,17 +3913,6 @@
 		)
 		(uuid "b04cda5f-98f3-42c2-84fa-e6bcba57725c")
 	)
-	(label "AUX-8"
-		(at 88.9 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4a4c9e1-0554-4b13-b773-3ea90475b461")
-	)
 	(label "~{SD}"
 		(at 85.09 147.32 0)
 		(fields_autoplaced yes)
@@ -5789,17 +3924,6 @@
 		)
 		(uuid "d1b159b5-e74b-411d-aa15-b71e80623300")
 	)
-	(label "AUX-7"
-		(at 88.9 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddf1fe51-9115-4455-a821-afde20ff687f")
-	)
 	(label "SPARE32"
 		(at 102.87 127 0)
 		(fields_autoplaced yes)
@@ -5810,17 +3934,6 @@
 			(justify left bottom)
 		)
 		(uuid "e6a1c834-a50a-4534-8b18-5e964152bef2")
-	)
-	(label "AUX-9"
-		(at 88.9 205.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8363ef6-5bdc-4bab-9d26-bda2a5f66c79")
 	)
 	(label "SPARE31"
 		(at 102.87 124.46 0)
@@ -5854,17 +3967,6 @@
 			(justify left bottom)
 		)
 		(uuid "f0c1cbe6-2f05-4fcd-96ef-633c5f3136c1")
-	)
-	(label "AUX_~{SHUTDOWN}"
-		(at 88.9 210.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "f19214e7-ed93-4b1b-ab7e-32872d1752cc")
 	)
 	(global_label "OPD_PWR"
 		(shape input)
@@ -6014,115 +4116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-002X")
-		(at 297.18 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19395620-3fc9-4b56-8e1f-154fe0710b3e")
-		(property "Reference" "CM2"
-			(at 289.56 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "J-MOLEX-SMPM-73300-003X"
-			(at 267.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X"
-			(at 297.18 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
-			(at 297.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 297.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "WM10772-ND"
-			(at 297.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Molex"
-			(at 297.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "73300-0020"
-			(at 297.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "SIG"
-			(uuid "627ead70-56b1-4abc-9ed8-042d72a35a8c")
-		)
-		(pin "SHLD"
-			(uuid "0c7e6975-8ce5-4e85-b7f2-c9a4b897707c")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "CM2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-proto-card-eagle-import:STAND-OFFTIGHT")
 		(at 287.02 246.38 0)
 		(unit 1)
@@ -6180,360 +4173,6 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-connectors:U.FL2PIN")
-		(at 314.96 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "297920a0-0bff-41a8-907a-0b0c698ceeb2")
-		(property "Reference" "J2"
-			(at 312.42 116.84 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "U.FL"
-			(at 312.42 119.38 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-U.FL"
-			(at 314.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 314.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "A118077CT-ND"
-			(at 314.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "TE Connectivity"
-			(at 314.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1909763-1"
-			(at 314.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "c39a1a67-7180-47f1-bf18-9f25382abab4")
-		)
-		(pin "FEED"
-			(uuid "2580e1e3-1537-4dae-9f54-ebf88424b3e6")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-connectors:U.FL2PIN")
-		(at 314.96 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54c36e09-6351-41a6-a77d-e099e483b14c")
-		(property "Reference" "J3"
-			(at 312.42 134.62 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "U.FL"
-			(at 312.42 137.16 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-U.FL"
-			(at 314.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 314.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "A118077CT-ND"
-			(at 314.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "TE Connectivity"
-			(at 314.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1909763-1"
-			(at 314.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "8d1c0f1d-31f8-4c60-9bf8-431bbc532f97")
-		)
-		(pin "FEED"
-			(uuid "2a7689b5-59fc-4126-a7c0-4057ef55048f")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 314.96 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58f376b6-baf1-4e99-a5d3-47a9f6e49a4e")
-		(property "Reference" "#GND030"
-			(at 314.96 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 124.46 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "704a6abe-e6bd-490b-affd-d83ddb1a9e5d")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "#GND030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 314.96 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ce3cdd9-909b-4679-9dbf-834d43fad1cf")
-		(property "Reference" "#GND027"
-			(at 314.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 142.24 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adeaf10c-eda8-44ba-8d6f-744c8e9fa46d")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "#GND027")
 					(unit 1)
 				)
 			)
@@ -6826,226 +4465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-002X")
-		(at 297.18 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65bbfc35-4101-4c37-bf48-a35dc0d04b65")
-		(property "Reference" "CM1"
-			(at 289.56 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "J-MOLEX-SMPM-73300-003X"
-			(at 267.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X"
-			(at 297.18 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
-			(at 297.18 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 297.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "WM10772-ND"
-			(at 297.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Molex"
-			(at 297.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "73300-0020"
-			(at 297.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "SHLD"
-			(uuid "bf144e6e-4d25-48d3-a3b2-3b03c74af67b")
-		)
-		(pin "SIG"
-			(uuid "5b1fa5fb-78bb-4a0b-8edb-30bf9d01bf83")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "CM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-connectors:U.FL2PIN")
-		(at 314.96 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ffce064-dc28-4ce5-a933-169d3c907426")
-		(property "Reference" "J4"
-			(at 312.42 152.4 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "U.FL"
-			(at 312.42 154.94 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-U.FL"
-			(at 314.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 314.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "A118077CT-ND"
-			(at 314.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "TE Connectivity"
-			(at 314.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1909763-1"
-			(at 314.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "FEED"
-			(uuid "e2786c4e-0207-4ba6-9021-4727ac27aae6")
-		)
-		(pin "GND"
-			(uuid "901dc947-4ff6-4c7a-9ef9-793a8fe89cac")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-proto-card-eagle-import:GND")
 		(at 209.55 134.62 0)
 		(mirror y)
@@ -7107,73 +4526,6 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
 					(reference "#GND038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 297.18 157.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82e0a3b9-4a3f-41cf-b9fb-7cdc794ab0ed")
-		(property "Reference" "#GND01"
-			(at 297.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 299.72 160.02 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbe841a4-a015-49fc-a7ce-19a21cfc9b6d")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "#GND01")
 					(unit 1)
 				)
 			)
@@ -7421,207 +4773,6 @@
 	)
 	(symbol
 		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 297.18 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8e22caa-a6fe-4ee9-bf8b-2b05c5c087ed")
-		(property "Reference" "#GND014"
-			(at 297.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 299.72 124.46 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e940f07-896e-4df9-9c6b-0811cc6a8d3e")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "#GND014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-proto-card-eagle-import:PINHD-1X10")
-		(at 196.85 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb7e2445-7e90-4b55-a7ca-0ec352162727")
-		(property "Reference" "JP9"
-			(at 190.5 174.625 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "PINHD-1X10"
-			(at 190.5 205.74 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-proto-card:1X10"
-			(at 196.85 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 196.85 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "732-5329-ND "
-			(at 196.85 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Wurth"
-			(at 196.85 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "61302011121"
-			(at 196.85 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "0fb2f84f-135e-4bb7-b406-997ef41ca038")
-		)
-		(pin "1"
-			(uuid "9a987ec1-8778-418f-bc9b-1f007e0d5a68")
-		)
-		(pin "2"
-			(uuid "480d67c1-5468-4e26-9781-af2e644f818d")
-		)
-		(pin "3"
-			(uuid "25acfa66-2578-4f70-8df4-b33ad6d8851b")
-		)
-		(pin "4"
-			(uuid "f049d165-36cf-42de-97b8-a4f86c367164")
-		)
-		(pin "7"
-			(uuid "e71c3a24-201e-4bbc-a4f5-564e841938ce")
-		)
-		(pin "9"
-			(uuid "215af370-9374-4d86-9a0b-919c18cdc9d0")
-		)
-		(pin "5"
-			(uuid "05037075-f5ca-4e28-bb12-9da0f819561d")
-		)
-		(pin "6"
-			(uuid "6dd7559e-2076-40de-bd27-d830071d693e")
-		)
-		(pin "8"
-			(uuid "98923c47-ef9f-4348-afa2-583b83b19ec9")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "JP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
 		(at 99.06 119.38 0)
 		(mirror y)
 		(unit 1)
@@ -7688,237 +4839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:J-SAMTEC-TFM-110-X1-XXX-D-RA")
-		(at 76.2 187.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee5c4e9a-2c14-4773-94c5-272c4faf22f2")
-		(property "Reference" "J1"
-			(at 82.55 161.925 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "J-SAMTEC-TFM-110-X1-XXX-D-RA"
-			(at 69.85 219.71 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "oresat-proto-card:J-SAMTEC-TFM-110-X1-XXX-D-RA"
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digikey"
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "SAM10113-ND"
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Samtec"
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TFM-110-01-L-D-RA "
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "b95e38a6-ab67-4a91-a576-d5e4beacd58e")
-		)
-		(pin "1"
-			(uuid "0a770ab4-89e5-450a-9835-cdc522d2500f")
-		)
-		(pin "17"
-			(uuid "be9215a0-6e31-442d-be70-19fd126581cc")
-		)
-		(pin "7"
-			(uuid "bf74497e-2ea3-42d1-b27f-da53c5131154")
-		)
-		(pin "20"
-			(uuid "ea3c36de-ee15-4937-b8c7-75e147b0531e")
-		)
-		(pin "13"
-			(uuid "bff78c46-a21c-4cf8-a14c-7bc64dfd0338")
-		)
-		(pin "14"
-			(uuid "33c39387-5afb-4909-8673-4af9cdd5a4ff")
-		)
-		(pin "2"
-			(uuid "663a5a8e-37e4-4d40-bdac-102478095cea")
-		)
-		(pin "3"
-			(uuid "e7039b4d-45ca-471f-8697-43156a261fc7")
-		)
-		(pin "8"
-			(uuid "7f833b50-7fb1-438b-a7ce-98b8b3c429f9")
-		)
-		(pin "9"
-			(uuid "010b82b5-7e54-4342-9978-9ae5cfafca3b")
-		)
-		(pin "19"
-			(uuid "05e51fba-a6c1-4039-9e7f-6ca73eab5847")
-		)
-		(pin "5"
-			(uuid "d77ac159-55c0-410b-b5d9-0b4308c16b72")
-		)
-		(pin "18"
-			(uuid "bbdf2abc-0c00-4789-8216-cb1c5223e2ee")
-		)
-		(pin "10"
-			(uuid "46af6a8f-3436-4d7b-ae15-4c443af81bca")
-		)
-		(pin "11"
-			(uuid "a1a60bb5-36ce-462e-b3e6-7c38c27114a8")
-		)
-		(pin "15"
-			(uuid "d1060a55-127e-4cbd-8566-f71acd47a9ea")
-		)
-		(pin "4"
-			(uuid "5f1fed09-33b1-45af-b501-d6d88386200a")
-		)
-		(pin "6"
-			(uuid "a4a22df8-2eab-4bf6-901f-8aaf85bc2a11")
-		)
-		(pin "16"
-			(uuid "6b1f228e-edbb-4432-897e-27d9e91d254e")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 297.18 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef62bc7d-31e6-4391-8261-ad3a373e66b4")
-		(property "Reference" "#GND010"
-			(at 297.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 299.72 142.24 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67eb12d8-f175-4c01-a4ff-c62b799d9a18")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "#GND010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-power:VBUS")
 		(at 99.06 109.22 0)
 		(unit 1)
@@ -7979,181 +4899,6 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
 					(reference "#VBUS02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-002X")
-		(at 297.18 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc967b13-43b1-469a-a284-c9b4be4fe38d")
-		(property "Reference" "CM3"
-			(at 289.56 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "J-MOLEX-SMPM-73300-003X"
-			(at 267.97 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X"
-			(at 297.18 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
-			(at 297.18 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 297.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "WM10772-ND"
-			(at 297.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Molex"
-			(at 297.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "73300-0020"
-			(at 297.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "SIG"
-			(uuid "3dda55cc-b525-40ac-87fb-aca108aeaa5c")
-		)
-		(pin "SHLD"
-			(uuid "8da88080-68e0-48a9-b0d4-5ea7ab9e87ce")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "CM3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 314.96 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "feacf6cc-6af2-49cc-bf66-a3441310a099")
-		(property "Reference" "#GND020"
-			(at 314.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 160.02 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a5c4edf-fe53-4a93-9860-44e0fd1baea2")
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "#GND020")
 					(unit 1)
 				)
 			)
