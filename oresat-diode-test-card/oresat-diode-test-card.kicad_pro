@@ -687,6 +687,10 @@
     [
       "e68cb6cd-039d-43ad-93aa-b705d581519b",
       "Microcontroller"
+    ],
+    [
+      "a25fadb6-76d8-445f-be27-cd15465f11e4",
+      "SWIR Diode"
     ]
   ],
   "text_variables": {}
