@@ -87,6 +87,53 @@
 		)
 	)
 	(sheet
+		(at 190.5 149.86)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a25fadb6-76d8-445f-be27-cd15465f11e4")
+		(property "Sheetname" "SWIR Diode"
+			(at 190.5 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-diode-test-card-sch-SWIR.kicad_sch"
+			(at 190.5 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 190.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 190.5 137.16)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
