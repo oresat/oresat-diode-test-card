@@ -5,9 +5,9 @@
 	(uuid "04d32576-d084-475b-9eac-d7f3fd9579d7")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat M0 Proto Card")
-		(date "2024-03-21")
-		(rev "5.0")
+		(title "OreSat Diode Test Card")
+		(date "2024-04-21")
+		(rev "v1.0")
 	)
 	(lib_symbols)
 	(sheet

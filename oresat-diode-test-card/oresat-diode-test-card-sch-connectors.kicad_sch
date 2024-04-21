@@ -5,9 +5,9 @@
 	(uuid "2c21849f-4e90-4351-9c00-702b76f03229")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat M0 Proto Card: Connectors")
-		(date "2024-03-21")
-		(rev "5.0")
+		(title "OreSat Diode Test Card")
+		(date "2024-04-21")
+		(rev "v1.0")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x12_Odd_Even"

@@ -5,9 +5,9 @@
 	(uuid "f9f74145-0119-4927-bd56-a95c549d0b6e")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat M0 Proto Card: Power")
-		(date "2024-03-21")
-		(rev "5.0")
+		(title "OreSat Diode Test Card")
+		(date "2024-04-21")
+		(rev "v1.0")
 	)
 	(lib_symbols
 		(symbol "oresat-ics:TS5A21366"

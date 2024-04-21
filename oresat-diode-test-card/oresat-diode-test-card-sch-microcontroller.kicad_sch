@@ -5,9 +5,9 @@
 	(uuid "fdfa29aa-7dc7-4937-b634-ad5e5e3e4e46")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat M0 Proto Card: Microcontroller")
-		(date "2024-03-21")
-		(rev "5.0")
+		(title "OreSat Diode Test Card")
+		(date "2024-04-21")
+		(rev "v1.0")
 	)
 	(lib_symbols
 		(symbol "oresat-proto-card-eagle-import:3.3V"
@@ -3202,6 +3202,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 118.11) (xy 193.04 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1871c502-9ab4-4af3-8d64-a6a6544ca29d")
+	)
+	(wire
+		(pts
 			(xy 365.76 102.87) (xy 365.76 107.95)
 		)
 		(stroke
@@ -3399,6 +3409,16 @@
 			(type solid)
 		)
 		(uuid "386581cb-2aa9-4652-8004-6691f8d1ec96")
+	)
+	(wire
+		(pts
+			(xy 186.69 113.03) (xy 187.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3952b987-50fc-4446-a7ec-dededcc7aff2")
 	)
 	(wire
 		(pts
@@ -3819,16 +3839,6 @@
 			(type solid)
 		)
 		(uuid "890176fa-683a-4d6b-bda1-6b1740ddae42")
-	)
-	(wire
-		(pts
-			(xy 246.38 95.25) (xy 312.42 95.25)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8aebb4ba-d138-417a-a25f-685b59162a87")
 	)
 	(wire
 		(pts
@@ -4452,6 +4462,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a8be88-8465-4ae4-a2fe-fb6845c414ab")
+	)
+	(wire
+		(pts
 			(xy 215.9 21.59) (xy 220.98 21.59)
 		)
 		(stroke
@@ -4459,6 +4479,16 @@
 			(type solid)
 		)
 		(uuid "f2d9b6b9-422e-4dc2-bd86-3352437cc097")
+	)
+	(wire
+		(pts
+			(xy 246.38 95.25) (xy 269.24 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31a2e5a-e194-463c-a4b6-f683d87dba90")
 	)
 	(wire
 		(pts
@@ -4720,17 +4750,6 @@
 		)
 		(uuid "35a83336-581b-4a00-8e49-48ede724f195")
 	)
-	(label "PB14"
-		(at 198.12 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "36afc4c1-b196-4d6f-94ea-a43e7f3a6f5a")
-	)
 	(label "CAN_SHDN"
 		(at 248.92 105.41 0)
 		(fields_autoplaced yes)
@@ -4775,17 +4794,6 @@
 		)
 		(uuid "574493e1-4a9d-4d7c-96b3-4a27a8a1cf88")
 	)
-	(label "PB15"
-		(at 198.12 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c4644b1-aed2-4db8-bf78-b4885bf7334e")
-	)
 	(label "NRESET"
 		(at 40.64 171.45 0)
 		(fields_autoplaced yes)
@@ -4796,17 +4804,6 @@
 			(justify left bottom)
 		)
 		(uuid "661a431e-63e6-4611-8d1c-8a56da5ab14a")
-	)
-	(label "PA5/SPI1_SCK"
-		(at 248.92 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "673a483c-6789-4370-81f9-10831fc306ad")
 	)
 	(label "PA9/CAN_SILENT"
 		(at 248.92 102.87 0)
@@ -4907,28 +4904,6 @@
 		)
 		(uuid "96327f35-7237-4467-9e3f-98924457ff35")
 	)
-	(label "PA1"
-		(at 248.92 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "973cb227-c6f7-4002-9c78-486fbd6e0e2a")
-	)
-	(label "PA4"
-		(at 248.92 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "9905a0fc-32c9-4f24-b0a1-e066b22e8136")
-	)
 	(label "BOOT0"
 		(at 198.12 57.15 180)
 		(fields_autoplaced yes)
@@ -4951,17 +4926,6 @@
 		)
 		(uuid "a7be1804-714a-4fd4-9e3a-8f05c8116ac7")
 	)
-	(label "PB13"
-		(at 198.12 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "a997367f-758b-4149-832a-788e0e7cb21a")
-	)
 	(label "PB2"
 		(at 198.12 85.09 180)
 		(fields_autoplaced yes)
@@ -4972,17 +4936,6 @@
 			(justify right bottom)
 		)
 		(uuid "b08c16e9-d786-4548-a731-f97388470ca9")
-	)
-	(label "PA6/SPI1_MISO"
-		(at 248.92 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b819c1cc-4a0a-43e5-85eb-bf387853b370")
 	)
 	(label "PA3/USART2_RX"
 		(at 40.64 186.69 0)
@@ -5119,6 +5072,69 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LED_CURRENT"
+		(shape input)
+		(at 279.4 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "474ced11-a9af-4855-aba0-3f9d6a7c6de6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.3875 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_MUX_A1"
+		(shape input)
+		(at 186.69 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ed5cd52-adcd-4a79-ba98-77b4e99847a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.033 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DAC_OUT"
+		(shape input)
+		(at 271.78 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "647e5f6d-095b-4b42-a24b-ca0368c41eec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
 			)
 		)
@@ -5207,6 +5223,27 @@
 			)
 		)
 	)
+	(global_label "SWIR_PD_CURRENT"
+		(shape input)
+		(at 269.24 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4e19d46-2da4-4f43-888c-3e46e3ec9d4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.8237 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CAN2_H"
 		(shape bidirectional)
 		(at 398.78 102.87 0)
@@ -5225,6 +5262,69 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "UV_PD_CURRENT"
+		(shape input)
+		(at 269.24 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf44e3e5-6341-4d37-8c5f-498dc9a36c5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.7071 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_MUX_A0"
+		(shape input)
+		(at 186.69 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0379a6d-6ab6-45c8-b9a8-5851b101274b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.033 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LED_MUX_A2"
+		(shape input)
+		(at 186.69 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "daff7801-8387-46ea-bd28-d123983ac8e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.033 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6719,7 +6819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/95/3c/2e/5b/21/09/45/a6/DM00115237.pdf/files/DM00115237.pdf/jcr:content/translations/en.DM00115237.pdf"
 			(at 223.52 85.09 0)
 			(effects
 				(font
