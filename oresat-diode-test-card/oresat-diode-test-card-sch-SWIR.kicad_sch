@@ -3018,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 91.44) (xy 260.35 91.44)
+			(xy 264.16 91.44) (xy 271.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3048,7 +3048,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 76.2) (xy 255.27 81.28)
+			(xy 266.7 76.2) (xy 266.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3058,7 +3058,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 62.23) (xy 276.86 64.77)
+			(xy 243.84 106.68) (xy 271.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af4f427-b518-46ed-bd9a-b639ec9945d8")
+	)
+	(wire
+		(pts
+			(xy 288.29 62.23) (xy 288.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3108,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 78.74) (xy 288.29 78.74)
+			(xy 306.07 78.74) (xy 299.72 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3128,7 +3138,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 80.01) (xy 254 86.36)
+			(xy 265.43 80.01) (xy 265.43 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3155,6 +3165,16 @@
 			(type default)
 		)
 		(uuid "2a1f3b4c-809c-4cd8-99b3-9cdf055e21f2")
+	)
+	(wire
+		(pts
+			(xy 243.84 96.52) (xy 271.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf52d61-2698-4678-b0ad-9281330e59f6")
 	)
 	(wire
 		(pts
@@ -3228,7 +3248,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 72.39) (xy 256.54 72.39)
+			(xy 168.91 111.76) (xy 271.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344d01a6-a701-410f-8b24-989000cb1586")
+	)
+	(wire
+		(pts
+			(xy 243.84 72.39) (xy 267.97 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3268,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 81.28) (xy 288.29 81.28)
+			(xy 306.07 81.28) (xy 299.72 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3288,7 +3318,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 71.12) (xy 260.35 71.12)
+			(xy 269.24 71.12) (xy 271.78 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3298,7 +3328,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 68.58) (xy 257.81 71.12)
+			(xy 269.24 68.58) (xy 269.24 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3338,16 +3368,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 111.76) (xy 260.35 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5895a381-bd1a-406b-9fee-c0e31c0b1d7a")
-	)
-	(wire
-		(pts
 			(xy 266.7 189.23) (xy 266.7 210.82)
 		)
 		(stroke
@@ -3368,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 68.58) (xy 257.81 68.58)
+			(xy 243.84 68.58) (xy 269.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3428,7 +3448,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 107.95) (xy 293.37 107.95)
+			(xy 299.72 107.95) (xy 304.8 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3445,16 +3465,6 @@
 			(type default)
 		)
 		(uuid "6f6470c1-19ea-44df-a41f-2e2b6dd9e0f4")
-	)
-	(wire
-		(pts
-			(xy 243.84 101.6) (xy 260.35 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b9a8dc-290a-477d-95b1-d6a1ae1129c1")
 	)
 	(wire
 		(pts
@@ -3508,7 +3518,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 86.36) (xy 260.35 86.36)
+			(xy 265.43 86.36) (xy 271.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +3548,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 80.01) (xy 254 80.01)
+			(xy 243.84 80.01) (xy 265.43 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +3578,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 119.38) (xy 276.86 118.11)
+			(xy 288.29 119.38) (xy 288.29 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3598,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 88.9) (xy 242.57 88.9)
+			(xy 247.65 88.9) (xy 242.57 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3688,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 83.82) (xy 288.29 83.82)
+			(xy 306.07 83.82) (xy 299.72 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3778,7 +3788,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 72.39) (xy 256.54 76.2)
+			(xy 267.97 72.39) (xy 267.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3805,6 +3815,16 @@
 			(type default)
 		)
 		(uuid "ae4b3892-440b-4ea1-867e-f6a3ba6c5962")
+	)
+	(wire
+		(pts
+			(xy 243.84 101.6) (xy 271.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c36ac7-f4aa-4cf0-b944-6f731d697c36")
 	)
 	(wire
 		(pts
@@ -3888,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 76.2) (xy 255.27 76.2)
+			(xy 243.84 76.2) (xy 266.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3908,7 +3928,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 83.82) (xy 252.73 91.44)
+			(xy 264.16 83.82) (xy 264.16 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3928,23 +3948,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 83.82) (xy 252.73 83.82)
+			(xy 243.84 83.82) (xy 264.16 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2b97a82-1d67-4e46-b413-04522f2511f0")
-	)
-	(wire
-		(pts
-			(xy 243.84 96.52) (xy 260.35 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc64dfbd-0bae-4c4d-9948-da2659bd0262")
 	)
 	(wire
 		(pts
@@ -3958,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 81.28) (xy 260.35 81.28)
+			(xy 266.7 81.28) (xy 271.78 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 76.2) (xy 260.35 76.2)
+			(xy 267.97 76.2) (xy 271.78 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4036,19 +4046,9 @@
 		)
 		(uuid "f4dc77b2-e66b-465f-961c-a25e2869541c")
 	)
-	(wire
-		(pts
-			(xy 243.84 106.68) (xy 260.35 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffee3cb2-93f9-45ca-b27c-7a964ae640d9")
-	)
 	(rectangle
-		(start 228.6 92.71)
-		(end 251.46 119.38)
+		(start 229.87 92.71)
+		(end 252.73 119.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -4105,7 +4105,7 @@
 	)
 	(text "LEDs (into Y5, Y6, Y7) \nslots are customizable\n"
 		(exclude_from_sim no)
-		(at 240.03 116.84 0)
+		(at 241.554 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4148,7 +4148,7 @@
 	)
 	(global_label "LED_MUX_A1"
 		(shape input)
-		(at 294.64 81.28 0)
+		(at 306.07 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4158,7 +4158,7 @@
 		)
 		(uuid "57034e99-f6a8-4c59-aadc-e393585c7df4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.297 81.28 0)
+			(at 320.727 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4169,7 @@
 	)
 	(global_label "LED_MUX_A0"
 		(shape input)
-		(at 294.64 78.74 0)
+		(at 306.07 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4179,7 +4179,7 @@
 		)
 		(uuid "638e92c1-a4a6-4570-b40f-1d648c42b6ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.297 78.74 0)
+			(at 320.727 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4274,7 @@
 	)
 	(global_label "SWIR_PD_C"
 		(shape input)
-		(at 245.11 88.9 0)
+		(at 247.65 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4284,7 +4284,7 @@
 		)
 		(uuid "87431948-f437-4032-b938-d1efbe99ba59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.3761 88.9 0)
+			(at 260.9161 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4316,7 @@
 	)
 	(global_label "~{LED_MUX_ENABLE}"
 		(shape input)
-		(at 293.37 107.95 0)
+		(at 304.8 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4326,7 +4326,7 @@
 		)
 		(uuid "faffc9ef-8f84-4e18-8391-ba9ef15e4adb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.7441 107.95 0)
+			(at 324.1741 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4337,7 @@
 	)
 	(global_label "LED_MUX_A2"
 		(shape input)
-		(at 294.64 83.82 0)
+		(at 306.07 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4347,7 +4347,7 @@
 		)
 		(uuid "fcf8d618-3ecf-473e-b99f-cf67f7438e5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.297 83.82 0)
+			(at 320.727 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 125.984 86.106 90)
 			(effects
 				(font
@@ -4586,7 +4586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 187.96 82.55 0)
 			(effects
 				(font
@@ -4829,7 +4829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 213.614 56.896 90)
 			(effects
 				(font
@@ -4983,7 +4983,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 276.86 62.23 0)
+		(at 288.29 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4992,7 +4992,7 @@
 		(dnp no)
 		(uuid "4a92eb15-f554-413e-b1e5-578b3018df64")
 		(property "Reference" "#SUPPLY06"
-			(at 276.86 62.23 0)
+			(at 288.29 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5001,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 276.86 59.436 0)
+			(at 288.29 59.436 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5010,7 +5010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 62.23 0)
+			(at 288.29 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,7 +5019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 62.23 0)
+			(at 288.29 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +5028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 276.86 62.23 0)
+			(at 288.29 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 192.024 65.024 90)
 			(effects
 				(font
@@ -5342,7 +5342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
 			(at 240.03 106.68 0)
 			(effects
 				(font
@@ -5412,7 +5412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 198.374 56.896 90)
 			(effects
 				(font
@@ -5482,7 +5482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 167.894 116.586 90)
 			(effects
 				(font
@@ -5772,7 +5772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
 			(at 240.03 101.6 0)
 			(effects
 				(font
@@ -5906,7 +5906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 256.794 209.804 90)
 			(effects
 				(font
@@ -5974,7 +5974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:SWIR_PhotoDiode"
+		(property "Footprint" "oresat-diodes:MTMD142345PDT38"
 			(at 238.252 58.674 0)
 			(effects
 				(font
@@ -6279,7 +6279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 119.38 0)
+		(at 288.29 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6287,7 +6287,7 @@
 		(dnp no)
 		(uuid "98928d22-fab2-4d98-aab0-fc04dd0538fb")
 		(property "Reference" "#GND01"
-			(at 276.86 119.38 0)
+			(at 288.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6296,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 124.46 0)
+			(at 285.75 124.46 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6305,7 +6305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 119.38 0)
+			(at 288.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 119.38 0)
+			(at 288.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6323,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 119.38 0)
+			(at 288.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +6636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
 			(at 240.03 96.52 0)
 			(effects
 				(font
@@ -6706,7 +6706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 162.814 88.646 90)
 			(effects
 				(font
@@ -6959,7 +6959,7 @@
 	)
 	(symbol
 		(lib_id "oresat-ics:NX3L4051-Q100")
-		(at 274.32 91.44 0)
+		(at 285.75 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6968,7 +6968,7 @@
 		(dnp no)
 		(uuid "d5a98cfd-c447-42b4-b2fd-370418dd1a78")
 		(property "Reference" "U8"
-			(at 274.6659 63.2925 0)
+			(at 286.0959 63.2925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +6977,7 @@
 			)
 		)
 		(property "Value" "NX3L4051-Q100"
-			(at 274.6659 65.7168 0)
+			(at 286.0959 65.7168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +6986,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 274.32 49.53 0)
+			(at 285.75 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +6995,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NX3L4051_Q100.pdf"
-			(at 274.574 53.086 0)
+			(at 286.004 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +7004,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 106.68 0)
+			(at 274.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 172.974 211.074 90)
 			(effects
 				(font
