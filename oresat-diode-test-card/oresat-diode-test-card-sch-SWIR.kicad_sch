@@ -2054,6 +2054,92 @@
 				)
 			)
 		)
+		(symbol "oresat-misc:M2-Press-Fit-Nut"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HW"
+				(at 4.445 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M2-Press-Fit-Nut"
+				(at 12.065 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M2-Press-Fit-Nut_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "oresat-power:VBUSP"
 			(power)
 			(pin_names
@@ -4125,6 +4211,18 @@
 		)
 		(uuid "d0957ddb-5762-4f6a-96ea-77be5645860e")
 	)
+	(text "Fastner Holes for Diode Cover"
+		(exclude_from_sim no)
+		(at 353.568 222.25 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "e8541d0d-01fe-404c-84f7-f48cca6ba6c9")
+	)
 	(global_label "DAC_OUT"
 		(shape input)
 		(at 120.65 82.55 180)
@@ -4982,6 +5080,138 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 360.68 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b899eb7-2604-4398-abac-424afe822515")
+		(property "Reference" "HW6"
+			(at 363.855 212.1478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 363.855 214.5721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 360.68 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "HW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 334.01 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d4aae51-f3ea-45c4-8bed-5bf994bdc74d")
+		(property "Reference" "HW1"
+			(at 337.185 204.5278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 337.185 206.9521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 334.01 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "HW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 288.29 62.23 0)
 		(mirror y)
@@ -5249,6 +5479,72 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 370.84 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58b34943-42fc-4db3-a461-9c767bb35390")
+		(property "Reference" "HW8"
+			(at 374.015 212.1478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 374.015 214.5721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 370.84 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 370.84 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "HW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 95.25 0)
 		(unit 1)
@@ -5342,7 +5638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 240.03 106.68 0)
 			(effects
 				(font
@@ -5635,6 +5931,72 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 344.17 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67588136-2a5d-42f9-a9a2-bf35b6b2c5b4")
+		(property "Reference" "HW4"
+			(at 347.345 212.1478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 347.345 214.5721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 344.17 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344.17 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "HW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-proto-card-eagle-import:C-EU0603-C-NOSILK")
 		(at 173.99 220.98 270)
 		(mirror x)
@@ -5772,7 +6134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 240.03 101.6 0)
 			(effects
 				(font
@@ -6609,6 +6971,72 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 360.68 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae8f48a3-9cdb-4d61-8b6d-0d152e578622")
+		(property "Reference" "HW5"
+			(at 363.855 204.5278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 363.855 206.9521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 360.68 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "HW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 240.03 96.52 180)
 		(unit 1)
@@ -6636,7 +7064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 240.03 96.52 0)
 			(effects
 				(font
@@ -6673,6 +7101,138 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 334.01 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b47d4b38-51c5-4907-a903-e3c3a9a5070b")
+		(property "Reference" "HW3"
+			(at 337.185 212.1478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 337.185 214.5721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 334.01 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "HW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 344.17 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b557ce4e-3bef-4fd3-9ca4-25c140a24011")
+		(property "Reference" "HW2"
+			(at 347.345 204.5278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 347.345 206.9521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 344.17 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344.17 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "HW2")
 					(unit 1)
 				)
 			)
@@ -7272,6 +7832,72 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
 					(reference "#GND022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 370.84 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecbcc9e9-47f2-43f4-86f6-e9b6de71eb97")
+		(property "Reference" "HW7"
+			(at 374.015 204.5278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 374.015 206.9521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 370.84 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 370.84 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "HW7")
 					(unit 1)
 				)
 			)

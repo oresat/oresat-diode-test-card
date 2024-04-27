@@ -59,9 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|142199999|149400001|47f6105d-2b12-44c8-b7bd-91905bd8e191|e27c75d8-b9d3-428e-9114-627394137c30",
-        "courtyards_overlap|147355001|76605001|f8afe3de-b4d9-4701-8393-f61409b40ba8|2ccf1b48-d3a2-46f5-b077-625531c12f3f",
-        "courtyards_overlap|148444999|78700001|f8afe3de-b4d9-4701-8393-f61409b40ba8|6f6c185f-d3d0-42ab-b281-c09baa8308fd"
+        "courtyards_overlap|142199999|149400001|47f6105d-2b12-44c8-b7bd-91905bd8e191|e27c75d8-b9d3-428e-9114-627394137c30"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -115,7 +113,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "ignore",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -246,7 +244,78 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "layers": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "name": "NONE",
+        "renderLayers": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161,
+          165
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
