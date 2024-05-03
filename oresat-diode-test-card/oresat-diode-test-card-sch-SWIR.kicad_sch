@@ -185,6 +185,178 @@
 				)
 			)
 		)
+		(symbol "Device:D_Photo"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.508 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Photo"
+				(at -1.016 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Photodiode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "photodiode diode opto"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Photo_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.778) (xy -1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 3.302) (xy -2.032 1.778) (xy -2.032 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27) (xy -2.54 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.302) (xy -0.762 1.778) (xy -0.762 2.286) (xy -0.762 1.778) (xy -0.254 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Photo_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -3005,6 +3177,12 @@
 		(uuid "3aff9940-8bbd-4d1c-8724-0561905e477a")
 	)
 	(junction
+		(at 240.03 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4303931e-6895-4074-8f24-4314237bcc6a")
+	)
+	(junction
 		(at 163.83 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3384,6 +3562,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 207.01) (xy 217.17 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6d0ee1-26fa-4536-85ef-3aebba71aa7c")
+	)
+	(wire
+		(pts
 			(xy 306.07 81.28) (xy 299.72 81.28)
 		)
 		(stroke
@@ -3681,6 +3869,16 @@
 			(type default)
 		)
 		(uuid "899b2239-45ec-4ce4-ad31-e965d660c327")
+	)
+	(wire
+		(pts
+			(xy 212.09 209.55) (xy 212.09 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5365df-7942-471a-b573-d746640e5055")
 	)
 	(wire
 		(pts
@@ -4024,7 +4222,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 191.77) (xy 240.03 210.82)
+			(xy 240.03 191.77) (xy 240.03 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4041,6 +4239,16 @@
 			(type default)
 		)
 		(uuid "d2b97a82-1d67-4e46-b413-04522f2511f0")
+	)
+	(wire
+		(pts
+			(xy 224.79 207.01) (xy 240.03 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8508282-5ea7-433d-af18-ffc620e19939")
 	)
 	(wire
 		(pts
@@ -4061,6 +4269,16 @@
 			(type default)
 		)
 		(uuid "e5cfe726-0da6-4475-8321-d3a8b31d3627")
+	)
+	(wire
+		(pts
+			(xy 240.03 207.01) (xy 240.03 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb030406-4e27-4f3a-8235-8ef07e679b7e")
 	)
 	(wire
 		(pts
@@ -4154,17 +4372,6 @@
 		)
 		(uuid "0e0e5667-c658-454b-8c86-1a2f48624645")
 	)
-	(text "TODO: UV PHOTODIODE"
-		(exclude_from_sim no)
-		(at 220.98 214.63 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 3 38 1)
-			)
-		)
-		(uuid "483cc6d3-5771-414e-8ba8-dd00f1677248")
-	)
 	(text "UV Photodiode\n"
 		(exclude_from_sim no)
 		(at 251.46 237.49 0)
@@ -4211,7 +4418,7 @@
 		)
 		(uuid "d0957ddb-5762-4f6a-96ea-77be5645860e")
 	)
-	(text "Fastner Holes for Diode Cover"
+	(text "Fastener Holes for Diode Cover"
 		(exclude_from_sim no)
 		(at 353.568 222.25 0)
 		(effects
@@ -5081,72 +5288,6 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 360.68 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b899eb7-2604-4398-abac-424afe822515")
-		(property "Reference" "HW6"
-			(at 363.855 212.1478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "M2-Press-Fit-Nut"
-			(at 363.855 214.5721 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 360.68 217.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
-					(reference "HW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:M2-Press-Fit-Nut")
 		(at 334.01 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5206,6 +5347,74 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
 					(reference "HW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Photo")
+		(at 222.25 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47119391-8be0-4a7f-ac83-17daa40b7167")
+		(property "Reference" "D8"
+			(at 221.2975 199.6905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Photo"
+			(at 221.2975 202.1148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-diodes:GVBL-S12SD"
+			(at 220.98 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photodiode"
+			(at 222.25 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a012b96-fb6c-4a74-ba98-64ec2d1992f0")
+		)
+		(pin "1"
+			(uuid "434567d9-7725-4192-bcf4-7fc48145a929")
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5479,72 +5688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 370.84 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58b34943-42fc-4db3-a461-9c767bb35390")
-		(property "Reference" "HW8"
-			(at 374.015 212.1478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "M2-Press-Fit-Nut"
-			(at 374.015 214.5721 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 370.84 217.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 370.84 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 370.84 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
-					(reference "HW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 146.05 95.25 0)
 		(unit 1)
@@ -5638,7 +5781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92-2"
 			(at 240.03 106.68 0)
 			(effects
 				(font
@@ -6134,7 +6277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92-2"
 			(at 240.03 101.6 0)
 			(effects
 				(font
@@ -6971,72 +7114,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 360.68 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae8f48a3-9cdb-4d61-8b6d-0d152e578622")
-		(property "Reference" "HW5"
-			(at 363.855 204.5278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "M2-Press-Fit-Nut"
-			(at 363.855 206.9521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 360.68 210.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
-					(reference "HW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 240.03 96.52 180)
 		(unit 1)
@@ -7064,7 +7141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92-2"
 			(at 240.03 96.52 0)
 			(effects
 				(font
@@ -7303,6 +7380,72 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9f4a453-4e40-4961-8009-da94a79e18cf")
+		(property "Reference" "#GND020"
+			(at 212.09 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 214.63 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1e34cca-acad-4e23-98a3-3fc84ea337d5")
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "#GND020")
 					(unit 1)
 				)
 			)
@@ -7832,72 +7975,6 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
 					(reference "#GND022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 370.84 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecbcc9e9-47f2-43f4-86f6-e9b6de71eb97")
-		(property "Reference" "HW7"
-			(at 374.015 204.5278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "M2-Press-Fit-Nut"
-			(at 374.015 206.9521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 370.84 210.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 370.84 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 370.84 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
-					(reference "HW7")
 					(unit 1)
 				)
 			)
