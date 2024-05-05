@@ -4731,7 +4731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "ORESAT-CARD-V1.3-3RF"
+		(property "Value" "ORESAT-CARD-V1.0-0xRF"
 			(at 162.56 238.76 0)
 			(effects
 				(font
@@ -4740,7 +4740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-pcbs:ORESAT-CARD-V1.3-3RF"
+		(property "Footprint" "oresat-pcbs:ORESAT-CARD-V1.3-0RF"
 			(at 162.56 232.41 0)
 			(effects
 				(font
