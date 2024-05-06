@@ -2011,7 +2011,7 @@
 				)
 			)
 		)
-		(symbol "oresat-pcbs:ORESAT-CARD-V1.3-3RF"
+		(symbol "oresat-pcbs:ORESAT-CARD-V1.3-0RF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2024,7 +2024,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "ORESAT-CARD-V1.3-3RF"
+			(property "Value" "ORESAT-CARD-V1.3-0RF"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2033,7 +2033,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "oresat-pcbs:ORESAT-CARD-V1.3-3RF"
+			(property "Footprint" "oresat-pcbs:ORESAT-CARD-V1.3-0RF"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -2060,7 +2060,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ORESAT-CARD-V1.3-3RF_1_0"
+			(symbol "ORESAT-CARD-V1.3-0RF_1_0"
 				(rectangle
 					(start -20.32 2.54)
 					(end 20.32 -2.54)
@@ -2072,7 +2072,7 @@
 						(type background)
 					)
 				)
-				(text "OreSat Card v1.3 with 3x RF Connectors"
+				(text "OreSat Card v1.3 with 0x RF Connectors"
 					(at 0 0 0)
 					(effects
 						(font
@@ -2199,77 +2199,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-		)
-		(symbol "oresat-proto-card-eagle-import:STAND-OFFTIGHT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "oresat-proto-card:STAND-OFF-TIGHT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "STAND-OFFTIGHT_1_0"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -4121,69 +4050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:STAND-OFFTIGHT")
-		(at 287.02 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ecb1f7c-8dfb-472f-975c-097cd8554969")
-		(property "Reference" "H3"
-			(at 287.02 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "STAND-OFFTIGHT"
-			(at 287.02 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-proto-card:STAND-OFF-TIGHT"
-			(at 287.02 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.02 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 287.02 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-connectors:J-SAMTEC-TFM-120-01-L-D-RA")
 		(at 73.66 96.52 0)
 		(unit 1)
@@ -4401,69 +4267,6 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-proto-card-eagle-import:STAND-OFFTIGHT")
-		(at 284.48 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "656fd47e-503f-4615-8658-4a36ad1f8140")
-		(property "Reference" "H2"
-			(at 284.48 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "STAND-OFFTIGHT"
-			(at 284.48 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-proto-card:STAND-OFF-TIGHT"
-			(at 284.48 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 284.48 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "oresat-diode-test-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4713,7 +4516,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-pcbs:ORESAT-CARD-V1.3-3RF")
+		(lib_id "oresat-pcbs:ORESAT-CARD-V1.3-0RF")
 		(at 162.56 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
