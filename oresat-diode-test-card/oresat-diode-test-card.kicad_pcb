@@ -3664,13 +3664,14 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
-			(at 0 -2.4 180)
+			(at 1.451 2.259 180)
 			(layer "F.SilkS")
 			(uuid "5879e4b7-09f8-4292-9f0e-d689a3a6bb69")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
+					(bold yes)
 				)
 			)
 		)
@@ -7228,7 +7229,7 @@
 			(uuid "196df123-15d8-4262-9fa2-4c9f92c09afa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "1b2b44ef-ff34-417b-8fef-9792d89d6fc6")
 			(effects
@@ -9064,7 +9065,7 @@
 		)
 		(fp_arc
 			(start 2.904738 13.15)
-			(mid 3.259244 12.610487)
+			(mid 3.259243 12.610483)
 			(end 3.869526 12.4)
 			(stroke
 				(width 0.2)
@@ -9229,7 +9230,7 @@
 		)
 		(fp_arc
 			(start 3.87298 -12.35)
-			(mid 3.26061 -12.559431)
+			(mid 3.260608 -12.55943)
 			(end 2.904738 -13.1)
 			(stroke
 				(width 0.2)
@@ -11662,7 +11663,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
-			(at 0 -2.4 270)
+			(at 0 -2.4 -90)
 			(layer "F.SilkS")
 			(uuid "a5f7b230-3328-463b-8b11-f8e34d29939d")
 			(effects
@@ -11673,7 +11674,7 @@
 			)
 		)
 		(property "Value" "PMV45EN"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "2386e70e-69de-4fa4-b97c-715b0adbc0af")
 			(effects
@@ -11918,7 +11919,7 @@
 			(uuid "64ce10f1-54e8-488b-9f89-4e86ca235985")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "956f16b9-be94-4d2e-bf34-ddc840a98de3")
 			(effects
@@ -19080,8 +19081,9 @@
 			(uuid "0b698ac9-bd0e-4905-b04e-1a0917f47631")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
+					(bold yes)
 				)
 			)
 		)
@@ -21186,13 +21188,14 @@
 		(descr "QFN, 16 Pin (http://www.thatcorp.com/datashts/THAT_1580_Datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U6"
-			(at 0 -3.33 0)
+			(at 0.145 -1.064 0)
 			(layer "F.SilkS")
 			(uuid "97bdf7dd-42ac-4c3d-9841-c1e460e2d30e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
+					(bold yes)
 				)
 			)
 		)
@@ -22239,7 +22242,7 @@
 		)
 		(fp_arc
 			(start 2.904738 13.15)
-			(mid 3.259244 12.610487)
+			(mid 3.259243 12.610483)
 			(end 3.869526 12.4)
 			(stroke
 				(width 0.2)
@@ -22404,7 +22407,7 @@
 		)
 		(fp_arc
 			(start 3.87298 -12.35)
-			(mid 3.26061 -12.559431)
+			(mid 3.260608 -12.55943)
 			(end 2.904738 -13.1)
 			(stroke
 				(width 0.2)
@@ -23394,8 +23397,9 @@
 			(uuid "0be6a188-c433-4180-9b43-1add9a34aec2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
+					(bold yes)
 				)
 			)
 		)
