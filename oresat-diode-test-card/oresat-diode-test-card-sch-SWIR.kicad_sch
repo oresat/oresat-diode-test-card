@@ -5665,7 +5665,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "64fdad15-420f-4999-a34e-5e1efeadd28d")
-		(property "Reference" "C501"
+		(property "Reference" "C25"
 			(at 262.001 211.836 0)
 			(effects
 				(font
@@ -5759,7 +5759,7 @@
 		(instances
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
-					(reference "C501")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6021,8 +6021,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80200f6c-e550-401f-a1a3-24f74557eb24")
-		(property "Reference" "R501"
-			(at 260.35 199.4365 90)
+		(property "Reference" "R15"
+			(at 260.35 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6030,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 260.35 201.8608 90)
+			(at 260.35 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6073,7 @@
 		(instances
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
-					(reference "R501")
+					(reference "R15")
 					(unit 1)
 				)
 			)
