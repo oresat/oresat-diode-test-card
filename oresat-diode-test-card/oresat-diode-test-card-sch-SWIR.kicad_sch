@@ -3194,6 +3194,12 @@
 		(uuid "2e91aa55-ba53-46ef-8bc6-b34281367642")
 	)
 	(junction
+		(at 276.86 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "385f4a57-d450-4dab-8daf-b3b42e70b0ba")
+	)
+	(junction
 		(at 212.09 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3397,7 +3403,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 110.49) (xy 276.86 113.03)
+			(xy 276.86 110.49) (xy 276.86 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3727,6 +3733,26 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 111.76) (xy 290.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52951af5-d675-4c53-8c0a-bad53561e6dd")
+	)
+	(wire
+		(pts
+			(xy 276.86 111.76) (xy 276.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e253fb-ec02-48f2-b955-7993cc5849fa")
+	)
+	(wire
+		(pts
 			(xy 251.46 204.47) (xy 251.46 213.36)
 		)
 		(stroke
@@ -3814,6 +3840,16 @@
 			(type default)
 		)
 		(uuid "665bd91a-2e74-4fce-9b8e-1c2ae887fee7")
+	)
+	(wire
+		(pts
+			(xy 290.83 111.76) (xy 290.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68307644-dac8-4d6c-acb2-27762b4c6410")
 	)
 	(wire
 		(pts
@@ -4034,6 +4070,16 @@
 			(type default)
 		)
 		(uuid "8dde45ec-354d-4fe8-94f3-9317ab214e49")
+	)
+	(wire
+		(pts
+			(xy 276.86 111.76) (xy 280.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef5cf34-9bd7-4ffa-a800-8b73fb9bc870")
 	)
 	(wire
 		(pts
@@ -7141,6 +7187,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 290.83 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99f165f5-41af-4b37-882a-7f47820682f5")
+		(property "Reference" "#GND030"
+			(at 290.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 118.11 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30667c88-206a-4850-afc2-43c22adc0b5b")
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "#GND030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 152.4 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7814,6 +7926,116 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-proto-card-eagle-import:C-EU0603-C-NOSILK")
+		(at 285.75 111.76 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3a3603a-b8b0-4392-8c91-b3eb3aee1961")
+		(property "Reference" "C26"
+			(at 286.131 110.236 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 281.051 110.236 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 285.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 285.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1276-1001-1-ND"
+			(at 285.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samsung"
+			(at 285.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 285.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "416f620d-8a1a-45fb-8911-6e60e75b09a7")
+		)
+		(pin "1"
+			(uuid "2e77141c-ee7f-4515-966c-14739ca4c567")
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/a25fadb6-76d8-445f-be27-cd15465f11e4"
+					(reference "C26")
 					(unit 1)
 				)
 			)

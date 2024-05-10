@@ -8562,7 +8562,7 @@
 		(uuid "156a2859-5114-4411-8e24-25fb499999e6")
 	)
 	(label "CB-RESET"
-		(at 320.04 101.6 90)
+		(at 320.04 97.79 90)
 		(fields_autoplaced yes)
 		(effects
 			(font

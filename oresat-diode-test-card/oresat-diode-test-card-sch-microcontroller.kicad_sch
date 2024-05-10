@@ -3651,16 +3651,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 100.33) (xy 182.88 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ac104c0-77d7-4a77-824c-e60eb66314a4")
-	)
-	(wire
-		(pts
 			(xy 227.33 31.75) (xy 227.33 34.29)
 		)
 		(stroke
@@ -3681,7 +3671,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 92.71) (xy 191.77 92.71)
+			(xy 186.69 92.71) (xy 191.77 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3978,16 +3968,6 @@
 			(type solid)
 		)
 		(uuid "a1d929c2-adf7-4a30-854f-522fb4a2583c")
-	)
-	(wire
-		(pts
-			(xy 186.69 97.79) (xy 186.69 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa227370-b393-49de-ac53-4d3159685d8f")
 	)
 	(wire
 		(pts
@@ -7920,7 +7900,7 @@
 	)
 	(symbol
 		(lib_id "oresat-proto-card-eagle-import:TEST-POINT-LARGE-SQUARE")
-		(at 182.88 100.33 0)
+		(at 186.69 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7929,7 +7909,7 @@
 		(dnp no)
 		(uuid "c8dcb2e5-d9bb-4f64-8f1e-5fdc33214b47")
 		(property "Reference" "TP5"
-			(at 180.34 102.87 0)
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7938,7 +7918,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 182.88 100.33 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +7927,7 @@
 			)
 		)
 		(property "Footprint" "oresat-proto-card:1X01"
-			(at 182.88 100.33 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +7936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 100.33 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +7945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 100.33 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +8344,7 @@
 	)
 	(symbol
 		(lib_id "oresat-proto-card-eagle-import:TEST-POINT-LARGE-SQUARE")
-		(at 182.88 92.71 0)
+		(at 186.69 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8373,7 +8353,7 @@
 		(dnp no)
 		(uuid "f7a76363-28d8-48e7-beb2-0300c43ee770")
 		(property "Reference" "TP1"
-			(at 180.34 95.25 0)
+			(at 184.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -8382,7 +8362,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 182.88 92.71 0)
+			(at 186.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8371,7 @@
 			)
 		)
 		(property "Footprint" "oresat-proto-card:1X01"
-			(at 182.88 92.71 0)
+			(at 186.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 92.71 0)
+			(at 186.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8389,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 92.71 0)
+			(at 186.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
