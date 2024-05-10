@@ -3130,10 +3130,6 @@
 		(uuid "180df000-ee70-4b28-a445-0b879de7d558")
 	)
 	(no_connect
-		(at 191.77 97.79)
-		(uuid "22443a70-1c97-460f-881c-8e2621044a3b")
-	)
-	(no_connect
 		(at 191.77 102.87)
 		(uuid "25b1dca9-9ecf-4de7-8f7b-7b5123ca9e3f")
 	)
@@ -3146,10 +3142,6 @@
 		(uuid "4baadd4d-6fa2-4d9c-9628-76802afd0486")
 	)
 	(no_connect
-		(at 237.49 110.49)
-		(uuid "7058f165-38e4-41ab-8849-04ac09003675")
-	)
-	(no_connect
 		(at 237.49 123.19)
 		(uuid "7bec604a-49d6-4129-9220-1a47b801e9c3")
 	)
@@ -3158,20 +3150,20 @@
 		(uuid "7e3b2847-c215-4f3e-bd98-e02ffe464eae")
 	)
 	(no_connect
-		(at 191.77 92.71)
-		(uuid "8cfd2a19-9134-4f5c-a61e-b671f608719b")
-	)
-	(no_connect
 		(at 191.77 110.49)
 		(uuid "9156e1c1-a7a8-408d-b0bc-1783c8a8b597")
+	)
+	(no_connect
+		(at 237.49 110.49)
+		(uuid "aa52e9c7-0547-451e-9a06-af04065aaf40")
 	)
 	(no_connect
 		(at 191.77 107.95)
 		(uuid "ac848895-d9a9-44e4-8183-d8bd3f8f02c6")
 	)
 	(no_connect
-		(at 237.49 107.95)
-		(uuid "c503cb04-dbca-4f32-874c-8a0d97483c2b")
+		(at 191.77 95.25)
+		(uuid "bce63bb0-632e-43ba-aa27-b5cc0a07d774")
 	)
 	(no_connect
 		(at 62.23 212.09)
@@ -3196,10 +3188,6 @@
 	(no_connect
 		(at 191.77 100.33)
 		(uuid "fbb46ff5-fc73-4140-aee2-09d7eca706d3")
-	)
-	(no_connect
-		(at 191.77 95.25)
-		(uuid "fd934b8a-806f-4de9-b822-5356a06c878a")
 	)
 	(wire
 		(pts
@@ -3230,6 +3218,16 @@
 			(type solid)
 		)
 		(uuid "073abde6-75f3-4e4b-8cca-4ce59ae5a5c9")
+	)
+	(wire
+		(pts
+			(xy 191.77 97.79) (xy 186.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2980c0-55e5-4d7a-a30c-26fe08bfdf11")
 	)
 	(wire
 		(pts
@@ -3653,6 +3651,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 100.33) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac104c0-77d7-4a77-824c-e60eb66314a4")
+	)
+	(wire
+		(pts
 			(xy 227.33 31.75) (xy 227.33 34.29)
 		)
 		(stroke
@@ -3673,6 +3681,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 92.71) (xy 191.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e338ed-21cb-4a64-9d9e-76e9cd82ba1b")
+	)
+	(wire
+		(pts
 			(xy 237.49 120.65) (xy 351.79 120.65)
 		)
 		(stroke
@@ -3680,6 +3698,16 @@
 			(type solid)
 		)
 		(uuid "736872d0-78d1-4219-8e3c-2644ef0a16ff")
+	)
+	(wire
+		(pts
+			(xy 237.49 107.95) (xy 241.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c61fab-b9fc-4e0d-be79-442b38e5e00b")
 	)
 	(wire
 		(pts
@@ -3950,6 +3978,16 @@
 			(type solid)
 		)
 		(uuid "a1d929c2-adf7-4a30-854f-522fb4a2583c")
+	)
+	(wire
+		(pts
+			(xy 186.69 97.79) (xy 186.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa227370-b393-49de-ac53-4d3159685d8f")
 	)
 	(wire
 		(pts
@@ -6018,6 +6056,73 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-proto-card-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(at 241.3 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6298352d-b2e6-43bd-ad06-9362fdf837a0")
+		(property "Reference" "TP6"
+			(at 243.332 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT-LARGE-SQUARE"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-proto-card:1X01"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01631064-62bb-4882-8cd0-e71feac9feb1")
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-proto-card-eagle-import:C-EU0603-C-NOSILK")
 		(at 384.81 97.79 270)
 		(mirror x)
@@ -7814,6 +7919,73 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-proto-card-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(at 182.88 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8dcb2e5-d9bb-4f64-8f1e-5fdc33214b47")
+		(property "Reference" "TP5"
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT-LARGE-SQUARE"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-proto-card:1X01"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f0d3da-b8e2-4293-b33b-c8da84645f58")
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 100.33 95.25 0)
 		(mirror y)
@@ -8185,6 +8357,73 @@
 			(project "oresat-diode-test-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
 					(reference "#GND056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-proto-card-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(at 182.88 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7a76363-28d8-48e7-beb2-0300c43ee770")
+		(property "Reference" "TP1"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT-LARGE-SQUARE"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-proto-card:1X01"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de6c87c1-dc96-4eea-a7de-74dbc77a4925")
+		)
+		(instances
+			(project "oresat-diode-test-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
