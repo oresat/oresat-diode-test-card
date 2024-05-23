@@ -4085,7 +4085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tfm-1xx-xx-x-dh-xx-mkt.pdf"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -4094,7 +4094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole, Right Angle 40 position 0.050\" (1.27mm)"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -4103,17 +4103,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "SAM10145-ND "
+		(property "DPN" "SAM10145-ND"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -4143,34 +4133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -4380,9 +4343,9 @@
 		(at 195.58 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8eb94c93-b1d5-454b-a4d1-4d066cdfc836")
 		(property "Reference" "JP2"
 			(at 194.31 114.3 0)
@@ -4393,7 +4356,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PINHD-2X5"
+		(property "Value" "PINHD-2X12"
 			(at 189.23 139.7 0)
 			(effects
 				(font
@@ -4421,7 +4384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 195.58 129.54 0)
 			(effects
 				(font
@@ -4430,17 +4393,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 195.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "609-3243-ND"
+		(property "DPN" "N/A"
 			(at 195.58 129.54 0)
 			(effects
 				(font
@@ -4450,7 +4403,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Amphenol "
+		(property "MFR" "N/A"
 			(at 195.58 129.54 0)
 			(effects
 				(font
@@ -4460,7 +4413,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "67997-410HLF"
+		(property "MPN" "N/A"
 			(at 195.58 129.54 0)
 			(effects
 				(font
@@ -4470,34 +4423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 195.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 195.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 195.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "N/A"
 			(at 195.58 129.54 0)
 			(effects
 				(font
@@ -4624,7 +4550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 162.56 243.84 0)
 			(effects
 				(font
@@ -4633,7 +4559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 162.56 243.84 0)
 			(effects
 				(font
@@ -4642,7 +4568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 162.56 243.84 0)
 			(effects
 				(font
@@ -4651,7 +4577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 162.56 243.84 0)
 			(effects
 				(font
@@ -4660,7 +4586,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 162.56 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 162.56 243.84 0)
 			(effects
 				(font

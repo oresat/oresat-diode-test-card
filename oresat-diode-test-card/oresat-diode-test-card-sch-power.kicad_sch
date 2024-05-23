@@ -8405,10 +8405,10 @@
 	)
 	(text "Vbus = (6.0,7.2,8.4)V"
 		(exclude_from_sim no)
-		(at 191.77 26.67 0)
+		(at 191.77 27.94 0)
 		(effects
 			(font
-				(size 2.54 2.159)
+				(size 2 2)
 			)
 			(justify left bottom)
 		)
@@ -8498,7 +8498,7 @@
 		(at 193.04 24.13 0)
 		(effects
 			(font
-				(size 2.54 2.159)
+				(size 2 2)
 			)
 			(justify left bottom)
 		)
@@ -8982,7 +8982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC Single Comparator W/REF, SC-70-5"
+		(property "Description" "Comparator with Voltage Reference Push-Pull SC-70-5"
 			(at 129.54 179.07 0)
 			(effects
 				(font
@@ -8991,7 +8991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "576-2927-1-ND"
 			(at 129.54 179.07 0)
 			(effects
 				(font
@@ -9000,7 +9000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "DigiKey"
 			(at 129.54 179.07 0)
 			(effects
 				(font
@@ -9009,7 +9009,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "Microchip"
+			(at 129.54 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MIC842LYC5-TR"
 			(at 129.54 179.07 0)
 			(effects
 				(font
@@ -9061,7 +9070,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNL"
+		(property "Value" "100n"
 			(at 246.38 179.07 0)
 			(effects
 				(font
@@ -9080,7 +9089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 246.38 179.07 0)
 			(effects
 				(font
@@ -9089,7 +9098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 246.38 179.07 0)
 			(effects
 				(font
@@ -9098,7 +9107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "587-3472-1-ND"
 			(at 246.38 179.07 0)
 			(effects
 				(font
@@ -9107,7 +9116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "DigiKey"
 			(at 246.38 179.07 0)
 			(effects
 				(font
@@ -9116,7 +9125,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "Taiyo Yuden"
+			(at 246.38 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 246.38 179.07 0)
 			(effects
 				(font
@@ -9182,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 90.17 194.31 0)
 			(effects
 				(font
@@ -9191,7 +9209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 90.17 194.31 0)
 			(effects
 				(font
@@ -9200,17 +9218,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 90.17 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT665KCT-ND"
 			(at 90.17 194.31 0)
 			(effects
 				(font
@@ -9220,7 +9228,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 90.17 194.31 0)
 			(effects
 				(font
@@ -9230,7 +9238,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT665K"
 			(at 90.17 194.31 0)
 			(effects
 				(font
@@ -9240,34 +9248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 90.17 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 90.17 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 90.17 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 90.17 194.31 0)
 			(effects
 				(font
@@ -9393,7 +9374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 106.68 180.34 0)
 			(effects
 				(font
@@ -9402,7 +9383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 106.68 180.34 0)
 			(effects
 				(font
@@ -9411,17 +9392,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 106.68 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-1444-1-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 106.68 180.34 0)
 			(effects
 				(font
@@ -9431,7 +9402,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Taiyo Yuden"
 			(at 106.68 180.34 0)
 			(effects
 				(font
@@ -9441,7 +9412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 106.68 180.34 0)
 			(effects
 				(font
@@ -9451,34 +9422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 106.68 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 106.68 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 106.68 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 106.68 180.34 0)
 			(effects
 				(font
@@ -9538,7 +9482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 223.52 41.91 0)
 			(effects
 				(font
@@ -9547,7 +9491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 223.52 41.91 0)
 			(effects
 				(font
@@ -9556,17 +9500,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 223.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-6472-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13LCT-ND"
 			(at 223.52 41.91 0)
 			(effects
 				(font
@@ -9576,7 +9510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Murata Electronics"
 			(at 223.52 41.91 0)
 			(effects
 				(font
@@ -9586,7 +9520,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21B106KOQNNNG"
+		(property "MPN" "GRT21BC71E106KE13L"
 			(at 223.52 41.91 0)
 			(effects
 				(font
@@ -9596,34 +9530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 223.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 223.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 223.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 223.52 41.91 0)
 			(effects
 				(font
@@ -9652,7 +9559,7 @@
 		(at 335.28 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0b43ba28-bc9c-42a5-b894-dcd320751d16")
@@ -9683,7 +9590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 335.28 62.23 0)
 			(effects
 				(font
@@ -9692,7 +9599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 335.28 62.23 0)
 			(effects
 				(font
@@ -9701,7 +9608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 335.28 62.23 0)
 			(effects
 				(font
@@ -9710,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 335.28 62.23 0)
 			(effects
 				(font
@@ -9719,7 +9626,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 335.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 335.28 62.23 0)
 			(effects
 				(font
@@ -9849,7 +9765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/150060GS75000.pdf"
 			(at 403.86 54.61 0)
 			(effects
 				(font
@@ -9858,7 +9774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
 			(at 403.86 54.61 0)
 			(effects
 				(font
@@ -9867,17 +9783,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 403.86 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "511-1584-1-ND"
+		(property "DPN" "732-4971-1-ND"
 			(at 403.86 54.61 0)
 			(effects
 				(font
@@ -9887,7 +9793,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Rohm"
+		(property "MFR" "Wurth"
 			(at 403.86 54.61 0)
 			(effects
 				(font
@@ -9897,7 +9803,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SML-E12M8WT86"
+		(property "MPN" "150060GS75000"
 			(at 403.86 54.61 0)
 			(effects
 				(font
@@ -9907,34 +9813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 403.86 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 403.86 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 403.86 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 403.86 54.61 0)
 			(effects
 				(font
@@ -10061,7 +9940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 106.68 214.63 0)
 			(effects
 				(font
@@ -10070,7 +9949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "330 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 106.68 214.63 0)
 			(effects
 				(font
@@ -10079,17 +9958,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 106.68 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "A129718CT-ND"
+		(property "DPN" "RMCF0603FT330KCT-ND"
 			(at 106.68 214.63 0)
 			(effects
 				(font
@@ -10099,7 +9968,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 106.68 214.63 0)
 			(effects
 				(font
@@ -10109,7 +9978,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRGCQ0603F330K"
+		(property "MPN" "RMCF0603FT330K"
 			(at 106.68 214.63 0)
 			(effects
 				(font
@@ -10119,34 +9988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 106.68 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 106.68 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 106.68 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 106.68 214.63 0)
 			(effects
 				(font
@@ -10175,7 +10017,7 @@
 		(at 91.44 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "112792a3-9e7a-428a-a70c-93529535b22b")
@@ -10206,7 +10048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 91.44 125.73 0)
 			(effects
 				(font
@@ -10215,7 +10057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 91.44 125.73 0)
 			(effects
 				(font
@@ -10224,7 +10066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 91.44 125.73 0)
 			(effects
 				(font
@@ -10233,7 +10075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 91.44 125.73 0)
 			(effects
 				(font
@@ -10242,7 +10084,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 91.44 125.73 0)
 			(effects
 				(font
@@ -10268,7 +10119,7 @@
 		(at 71.12 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "14e21b7e-8c76-4d9d-a8b3-d64845042182")
@@ -10299,7 +10150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 71.12 44.45 0)
 			(effects
 				(font
@@ -10308,7 +10159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 71.12 44.45 0)
 			(effects
 				(font
@@ -10317,7 +10168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 71.12 44.45 0)
 			(effects
 				(font
@@ -10326,7 +10177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 71.12 44.45 0)
 			(effects
 				(font
@@ -10335,7 +10186,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 71.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 71.12 44.45 0)
 			(effects
 				(font
@@ -10392,7 +10252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -10401,7 +10261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -10410,17 +10270,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 114.3 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-1.00MHRCT-ND  "
+		(property "DPN" "RMCF0603FT1M00CT-ND"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -10430,7 +10280,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -10440,7 +10290,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-071ML"
+		(property "MPN" "RMCF0603FT1M00"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -10450,34 +10300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 114.3 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -10528,7 +10351,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 388.62 69.85 0)
 			(effects
 				(font
@@ -10537,7 +10360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 388.62 69.85 0)
 			(effects
 				(font
@@ -10546,22 +10369,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-Channel 30V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 388.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 388.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -10595,34 +10408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 388.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 388.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 388.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 388.62 69.85 0)
 			(effects
 				(font
@@ -10884,7 +10670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 388.62 57.15 0)
 			(effects
 				(font
@@ -10893,7 +10679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 388.62 57.15 0)
 			(effects
 				(font
@@ -10902,17 +10688,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 388.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 388.62 57.15 0)
 			(effects
 				(font
@@ -10922,7 +10698,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 388.62 57.15 0)
 			(effects
 				(font
@@ -10932,7 +10708,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 388.62 57.15 0)
 			(effects
 				(font
@@ -10942,34 +10718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 388.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 388.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 388.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 388.62 57.15 0)
 			(effects
 				(font
@@ -11047,16 +10796,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 330.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 330.2 72.39 0)
 			(effects
@@ -11087,34 +10826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 330.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 330.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 330.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 330.2 72.39 0)
 			(effects
 				(font
@@ -11258,16 +10970,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 78.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 78.74 77.47 0)
 			(effects
@@ -11298,34 +11000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 78.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 78.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 78.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -11385,7 +11060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -11394,7 +11069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -11403,17 +11078,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 93.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -11423,7 +11088,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -11433,7 +11098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT2K70"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -11443,34 +11108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 93.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 93.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 93.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -11499,7 +11137,7 @@
 		(at 148.59 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2c49d2ff-c0e2-440b-b224-ecf595e6bdf9")
@@ -11530,7 +11168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 148.59 118.11 0)
 			(effects
 				(font
@@ -11539,7 +11177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 148.59 118.11 0)
 			(effects
 				(font
@@ -11548,7 +11186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 148.59 118.11 0)
 			(effects
 				(font
@@ -11557,7 +11195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 148.59 118.11 0)
 			(effects
 				(font
@@ -11566,7 +11204,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 148.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 148.59 118.11 0)
 			(effects
 				(font
@@ -11690,7 +11337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -11699,7 +11346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -11708,17 +11355,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -11728,7 +11365,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -11738,7 +11375,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT2K70"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -11748,34 +11385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -11901,7 +11511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps62110"
 			(at 342.9 191.77 0)
 			(effects
 				(font
@@ -11916,16 +11526,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 342.9 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -11959,34 +11559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 342.9 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 342.9 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 342.9 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 342.9 191.77 0)
 			(effects
 				(font
@@ -12073,7 +11646,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 363.22 59.69 0)
 			(effects
 				(font
@@ -12092,7 +11665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 363.22 59.69 0)
 			(effects
 				(font
@@ -12101,7 +11674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 363.22 59.69 0)
 			(effects
 				(font
@@ -12110,7 +11683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DST" "DigiKey"
 			(at 363.22 59.69 0)
 			(effects
 				(font
@@ -12119,7 +11692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 363.22 59.69 0)
 			(effects
 				(font
@@ -12128,7 +11701,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 363.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 363.22 59.69 0)
 			(effects
 				(font
@@ -12194,7 +11776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 403.86 44.45 0)
 			(effects
 				(font
@@ -12203,7 +11785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 403.86 44.45 0)
 			(effects
 				(font
@@ -12212,17 +11794,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 403.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "P2.7KDBCT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 403.86 44.45 0)
 			(effects
 				(font
@@ -12232,7 +11804,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 403.86 44.45 0)
 			(effects
 				(font
@@ -12242,7 +11814,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA-3AEB272V"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 403.86 44.45 0)
 			(effects
 				(font
@@ -12252,34 +11824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 403.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 403.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 403.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 403.86 44.45 0)
 			(effects
 				(font
@@ -12308,7 +11853,7 @@
 		(at 325.12 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "37c93752-06a9-48ea-9ad9-13c0cc450e54")
@@ -12339,7 +11884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 325.12 194.31 0)
 			(effects
 				(font
@@ -12348,7 +11893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 325.12 194.31 0)
 			(effects
 				(font
@@ -12357,7 +11902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 325.12 194.31 0)
 			(effects
 				(font
@@ -12366,7 +11911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 325.12 194.31 0)
 			(effects
 				(font
@@ -12375,7 +11920,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 325.12 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 325.12 194.31 0)
 			(effects
 				(font
@@ -12614,7 +12168,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 261.62 63.5 0)
 			(effects
 				(font
@@ -12632,7 +12186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 264.16 59.69 0)
 			(effects
 				(font
@@ -12641,7 +12195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 264.16 59.69 0)
 			(effects
 				(font
@@ -12650,17 +12204,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 264.16 59.69 0)
 			(effects
 				(font
@@ -12670,7 +12214,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 264.16 59.69 0)
 			(effects
 				(font
@@ -12680,7 +12224,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 264.16 59.69 0)
 			(effects
 				(font
@@ -12690,34 +12234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 264.16 59.69 0)
 			(effects
 				(font
@@ -12746,7 +12263,7 @@
 		(at 304.8 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3ee1c9a6-1df3-4a6c-b0c2-cae5f5e47a26")
@@ -12777,7 +12294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 304.8 52.07 0)
 			(effects
 				(font
@@ -12786,7 +12303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 304.8 52.07 0)
 			(effects
 				(font
@@ -12795,7 +12312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 304.8 52.07 0)
 			(effects
 				(font
@@ -12804,7 +12321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 304.8 52.07 0)
 			(effects
 				(font
@@ -12813,7 +12330,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 304.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 304.8 52.07 0)
 			(effects
 				(font
@@ -12870,7 +12396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -12879,7 +12405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -12888,17 +12414,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1830-1064-1-ND"
+		(property "DPN" "732-150060AS75000CT-ND"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -12908,7 +12424,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Inolux"
+		(property "MFR" "Wurth"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -12918,7 +12434,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "IN-S63AT5A"
+		(property "MPN" "150060AS75000"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -12928,34 +12444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -12984,7 +12473,7 @@
 		(at 147.32 194.31 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "40cb90d6-c2b9-4b4e-b18e-00c8421bfd46")
@@ -13015,7 +12504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 147.32 194.31 0)
 			(effects
 				(font
@@ -13024,7 +12513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 147.32 194.31 0)
 			(effects
 				(font
@@ -13033,7 +12522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 147.32 194.31 0)
 			(effects
 				(font
@@ -13042,7 +12531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 147.32 194.31 0)
 			(effects
 				(font
@@ -13051,7 +12540,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 147.32 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 147.32 194.31 0)
 			(effects
 				(font
@@ -13241,7 +12739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 325.12 57.15 0)
 			(effects
 				(font
@@ -13250,7 +12748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 325.12 57.15 0)
 			(effects
 				(font
@@ -13259,17 +12757,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 325.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-0.0GRCT-ND"
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
 			(at 325.12 57.15 0)
 			(effects
 				(font
@@ -13279,7 +12767,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 325.12 57.15 0)
 			(effects
 				(font
@@ -13289,7 +12777,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603JR-070RL"
+		(property "MPN" "RMCF0603ZT0R00"
 			(at 325.12 57.15 0)
 			(effects
 				(font
@@ -13299,34 +12787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 325.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 325.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 325.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 325.12 57.15 0)
 			(effects
 				(font
@@ -13355,7 +12816,7 @@
 		(at 148.59 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "45671e13-04a8-40fa-9c16-03db6294f284")
@@ -13386,7 +12847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 148.59 130.81 0)
 			(effects
 				(font
@@ -13395,7 +12856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 148.59 130.81 0)
 			(effects
 				(font
@@ -13404,7 +12865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 148.59 130.81 0)
 			(effects
 				(font
@@ -13413,7 +12874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 148.59 130.81 0)
 			(effects
 				(font
@@ -13422,7 +12883,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 148.59 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 148.59 130.81 0)
 			(effects
 				(font
@@ -13563,16 +13033,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 93.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 93.98 87.63 0)
 			(effects
@@ -13603,34 +13063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 93.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 93.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 93.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 93.98 87.63 0)
 			(effects
 				(font
@@ -13659,9 +13092,9 @@
 		(at 317.5 207.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4bbbd9cf-4fea-4f25-bf6a-bfa508cc435d")
 		(property "Reference" "R75"
 			(at 316.23 212.09 0)
@@ -13708,16 +13141,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 317.5 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 317.5 207.01 0)
 			(effects
@@ -13748,34 +13171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 317.5 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 317.5 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 317.5 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -13835,7 +13231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 299.72 189.23 0)
 			(effects
 				(font
@@ -13844,7 +13240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 299.72 189.23 0)
 			(effects
 				(font
@@ -13853,17 +13249,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 299.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-6472-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13LCT-ND"
 			(at 299.72 189.23 0)
 			(effects
 				(font
@@ -13873,7 +13259,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Murata Electronics"
 			(at 299.72 189.23 0)
 			(effects
 				(font
@@ -13883,7 +13269,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21B106KOQNNNG"
+		(property "MPN" "GRT21BC71E106KE13L"
 			(at 299.72 189.23 0)
 			(effects
 				(font
@@ -13893,34 +13279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 299.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 299.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 299.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 299.72 189.23 0)
 			(effects
 				(font
@@ -13980,7 +13339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -13989,7 +13348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "330 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -13998,17 +13357,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 106.68 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "A129718CT-ND"
+		(property "DPN" "RMCF0603FT330KCT-ND"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -14018,7 +13367,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -14028,7 +13377,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRGCQ0603F330K"
+		(property "MPN" "RMCF0603FT330K"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -14038,34 +13387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 106.68 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 106.68 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 106.68 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -14192,7 +13514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -14201,7 +13523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -14210,17 +13532,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-10.0HRCT-ND"
+		(property "DPN" "RMCF0603FT10R0CT-ND"
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -14230,7 +13542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -14240,7 +13552,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710RL"
+		(property "MPN" "RMCF0603FT10R0"
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -14250,34 +13562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -14337,7 +13622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -14346,7 +13631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -14355,17 +13640,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -14375,7 +13650,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -14385,7 +13660,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -14395,34 +13670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -14482,7 +13730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 251.46 191.77 0)
 			(effects
 				(font
@@ -14491,7 +13739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 251.46 191.77 0)
 			(effects
 				(font
@@ -14500,7 +13748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DST" "DigiKey"
 			(at 251.46 191.77 0)
 			(effects
 				(font
@@ -14509,7 +13757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 251.46 191.77 0)
 			(effects
 				(font
@@ -14518,7 +13766,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 251.46 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT2K70"
 			(at 251.46 191.77 0)
 			(effects
 				(font
@@ -14585,7 +13842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -14594,7 +13851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -14603,17 +13860,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 127 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-14941-1-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -14623,7 +13870,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Kemet"
+		(property "MFR" "Taiyo Yuden"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -14633,7 +13880,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C104K4PAC7867"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -14643,34 +13890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 127 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 127 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 127 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -14765,7 +13985,7 @@
 		(at 317.5 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "62b08539-809e-40ff-8ef7-14b7e8642715")
@@ -14796,7 +14016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 317.5 67.31 0)
 			(effects
 				(font
@@ -14805,7 +14025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 317.5 67.31 0)
 			(effects
 				(font
@@ -14814,7 +14034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 317.5 67.31 0)
 			(effects
 				(font
@@ -14823,7 +14043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 317.5 67.31 0)
 			(effects
 				(font
@@ -14832,7 +14052,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 317.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 317.5 67.31 0)
 			(effects
 				(font
@@ -14956,7 +14185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-MPI4040.pdf"
 			(at 368.3 184.15 0)
 			(effects
 				(font
@@ -14965,22 +14194,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.8µH Shielded Inductor 2.4A 91mOhm Nonstandard"
 			(at 368.3 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 368.3 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -15014,34 +14233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 368.3 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 368.3 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 368.3 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 368.3 184.15 0)
 			(effects
 				(font
@@ -15101,7 +14293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 246.38 54.61 0)
 			(effects
 				(font
@@ -15110,7 +14302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 246.38 54.61 0)
 			(effects
 				(font
@@ -15119,17 +14311,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 246.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-1444-1-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 246.38 54.61 0)
 			(effects
 				(font
@@ -15139,7 +14321,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Taiyo Yuden"
 			(at 246.38 54.61 0)
 			(effects
 				(font
@@ -15149,7 +14331,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 246.38 54.61 0)
 			(effects
 				(font
@@ -15159,34 +14341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 246.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 246.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 246.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 246.38 54.61 0)
 			(effects
 				(font
@@ -15246,7 +14401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -15255,7 +14410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -15264,17 +14419,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "P2.7KDBCT-ND"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -15284,7 +14429,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -15294,7 +14439,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA-3AEB272V"
+		(property "MPN" "RMCF0603FT4K70"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -15304,34 +14449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -15360,7 +14478,7 @@
 		(at 360.68 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "68009789-55a7-4657-9d1d-e016c9750b35")
@@ -15391,7 +14509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 360.68 194.31 0)
 			(effects
 				(font
@@ -15400,7 +14518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 360.68 194.31 0)
 			(effects
 				(font
@@ -15409,7 +14527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 360.68 194.31 0)
 			(effects
 				(font
@@ -15418,7 +14536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 360.68 194.31 0)
 			(effects
 				(font
@@ -15427,7 +14545,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 360.68 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 360.68 194.31 0)
 			(effects
 				(font
@@ -15466,7 +14593,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 370.84 46.99 0)
 			(effects
 				(font
@@ -15485,7 +14612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 370.84 46.99 0)
 			(effects
 				(font
@@ -15494,7 +14621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 370.84 46.99 0)
 			(effects
 				(font
@@ -15503,7 +14630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DST" "DigiKey"
 			(at 370.84 46.99 0)
 			(effects
 				(font
@@ -15512,7 +14639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 370.84 46.99 0)
 			(effects
 				(font
@@ -15521,7 +14648,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 370.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 370.84 46.99 0)
 			(effects
 				(font
@@ -15587,7 +14723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 307.34 189.23 0)
 			(effects
 				(font
@@ -15596,7 +14732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 307.34 189.23 0)
 			(effects
 				(font
@@ -15605,17 +14741,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 307.34 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-1444-1-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 307.34 189.23 0)
 			(effects
 				(font
@@ -15625,7 +14751,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Taiyo Yuden"
 			(at 307.34 189.23 0)
 			(effects
 				(font
@@ -15635,7 +14761,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 307.34 189.23 0)
 			(effects
 				(font
@@ -15645,34 +14771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 307.34 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 307.34 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 307.34 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 307.34 189.23 0)
 			(effects
 				(font
@@ -15732,7 +14831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/150060GS75000.pdf"
 			(at 398.78 198.12 0)
 			(effects
 				(font
@@ -15741,7 +14840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
 			(at 398.78 198.12 0)
 			(effects
 				(font
@@ -15750,17 +14849,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 398.78 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "511-1584-1-ND"
+		(property "DPN" "732-4971-1-ND"
 			(at 398.78 198.12 0)
 			(effects
 				(font
@@ -15770,7 +14859,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Rohm"
+		(property "MFR" "Wurth"
 			(at 398.78 198.12 0)
 			(effects
 				(font
@@ -15780,7 +14869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SML-E12M8WT86"
+		(property "MPN" "150060GS75000"
 			(at 398.78 198.12 0)
 			(effects
 				(font
@@ -15790,34 +14879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 398.78 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 398.78 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 398.78 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 398.78 198.12 0)
 			(effects
 				(font
@@ -15868,7 +14930,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:SOT23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 365.76 39.37 0)
 			(effects
 				(font
@@ -15877,7 +14939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVT.pdf"
 			(at 365.76 39.37 0)
 			(effects
 				(font
@@ -15886,22 +14948,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-Channel Power MOSFET, SOT-23-6"
 			(at 365.76 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 365.76 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -15935,34 +14987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 365.76 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 365.76 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 365.76 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 365.76 39.37 0)
 			(effects
 				(font
@@ -16034,7 +15059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 256.54 64.77 0)
 			(effects
 				(font
@@ -16043,7 +15068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 256.54 64.77 0)
 			(effects
 				(font
@@ -16052,17 +15077,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 256.54 64.77 0)
 			(effects
 				(font
@@ -16072,7 +15087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 256.54 64.77 0)
 			(effects
 				(font
@@ -16082,7 +15097,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100K"
 			(at 256.54 64.77 0)
 			(effects
 				(font
@@ -16092,34 +15107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 256.54 64.77 0)
 			(effects
 				(font
@@ -16313,7 +15301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1875/TMK107BJ474KAHT_SS.pdf"
 			(at 378.46 43.18 0)
 			(effects
 				(font
@@ -16322,7 +15310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 378.46 43.18 0)
 			(effects
 				(font
@@ -16331,7 +15319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "587-3476-1-ND"
 			(at 378.46 43.18 0)
 			(effects
 				(font
@@ -16340,7 +15328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "DigiKey"
 			(at 378.46 43.18 0)
 			(effects
 				(font
@@ -16349,7 +15337,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "Taiyo Yuden"
+			(at 378.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ474KAHT"
 			(at 378.46 43.18 0)
 			(effects
 				(font
@@ -16499,16 +15496,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 340.36 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 340.36 54.61 0)
 			(effects
@@ -16539,34 +15526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 340.36 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 340.36 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 340.36 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 340.36 54.61 0)
 			(effects
 				(font
@@ -16728,7 +15688,7 @@
 		(at 381 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "80875bbd-9998-4982-b877-745b66e3638a")
@@ -16759,7 +15719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 381 181.61 0)
 			(effects
 				(font
@@ -16768,7 +15728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 381 181.61 0)
 			(effects
 				(font
@@ -16777,7 +15737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 381 181.61 0)
 			(effects
 				(font
@@ -16786,7 +15746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 381 181.61 0)
 			(effects
 				(font
@@ -16795,7 +15755,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 381 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 381 181.61 0)
 			(effects
 				(font
@@ -16852,7 +15821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 67.31 220.98 0)
 			(effects
 				(font
@@ -16861,7 +15830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 67.31 220.98 0)
 			(effects
 				(font
@@ -16870,17 +15839,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 67.31 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-100HRCT-ND "
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 67.31 220.98 0)
 			(effects
 				(font
@@ -16890,7 +15849,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 67.31 220.98 0)
 			(effects
 				(font
@@ -16900,7 +15859,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL "
+		(property "MPN" "RMCF0603FT100R"
 			(at 67.31 220.98 0)
 			(effects
 				(font
@@ -16910,34 +15869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 67.31 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 67.31 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 67.31 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 67.31 220.98 0)
 			(effects
 				(font
@@ -17064,7 +15996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -17073,7 +16005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -17082,17 +16014,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -17102,7 +16024,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -17112,7 +16034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -17122,34 +16044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -17281,7 +16176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 398.78 187.96 0)
 			(effects
 				(font
@@ -17290,7 +16185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 398.78 187.96 0)
 			(effects
 				(font
@@ -17299,17 +16194,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 398.78 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "P2.7KDBCT-ND"
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 398.78 187.96 0)
 			(effects
 				(font
@@ -17319,7 +16204,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 398.78 187.96 0)
 			(effects
 				(font
@@ -17329,7 +16214,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA-3AEB272V"
+		(property "MPN" "RMCF0603FT2K70"
 			(at 398.78 187.96 0)
 			(effects
 				(font
@@ -17339,34 +16224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 398.78 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 398.78 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 398.78 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 398.78 187.96 0)
 			(effects
 				(font
@@ -17395,7 +16253,7 @@
 		(at 147.32 238.76 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8a9b4f8c-cff4-419e-96f9-7640b48540c6")
@@ -17426,7 +16284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 147.32 238.76 0)
 			(effects
 				(font
@@ -17435,7 +16293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 147.32 238.76 0)
 			(effects
 				(font
@@ -17444,7 +16302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 147.32 238.76 0)
 			(effects
 				(font
@@ -17453,7 +16311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 147.32 238.76 0)
 			(effects
 				(font
@@ -17462,7 +16320,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 147.32 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 147.32 238.76 0)
 			(effects
 				(font
@@ -17586,7 +16453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts5a21366"
 			(at 226.06 203.2 0)
 			(effects
 				(font
@@ -17604,33 +16471,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 233.68 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 233.68 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 233.68 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "296-24304-1-ND"
 			(at 233.68 194.31 0)
 			(effects
@@ -17640,7 +16480,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 233.68 194.31 0)
 			(effects
 				(font
@@ -17760,16 +16600,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 287.02 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "MAX4211FETE+-ND"
 			(at 287.02 59.69 0)
 			(effects
@@ -17780,7 +16610,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Maxim"
+		(property "MFR" "Analog Devices Inc./Maxim Integrated"
 			(at 287.02 59.69 0)
 			(effects
 				(font
@@ -17800,34 +16630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 287.02 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 287.02 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 287.02 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 287.02 59.69 0)
 			(effects
 				(font
@@ -17967,7 +16770,7 @@
 		(at 393.7 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "94fae3d8-a742-466b-9f2e-9862ddea58f7")
@@ -17998,7 +16801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 393.7 87.63 0)
 			(effects
 				(font
@@ -18007,7 +16810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 393.7 87.63 0)
 			(effects
 				(font
@@ -18016,7 +16819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 393.7 87.63 0)
 			(effects
 				(font
@@ -18025,7 +16828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 393.7 87.63 0)
 			(effects
 				(font
@@ -18034,7 +16837,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 393.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 393.7 87.63 0)
 			(effects
 				(font
@@ -18109,16 +16921,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 73.66 77.47 0)
 			(effects
@@ -18149,34 +16951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 73.66 77.47 0)
 			(effects
 				(font
@@ -18206,7 +16981,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9b7c1ed3-94a1-4797-adc0-a4a30e0e8ec0")
@@ -18237,7 +17012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 269.24 97.79 0)
 			(effects
 				(font
@@ -18246,7 +17021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 269.24 97.79 0)
 			(effects
 				(font
@@ -18255,7 +17030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 269.24 97.79 0)
 			(effects
 				(font
@@ -18264,7 +17039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 269.24 97.79 0)
 			(effects
 				(font
@@ -18273,7 +17048,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 269.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 269.24 97.79 0)
 			(effects
 				(font
@@ -18330,7 +17114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
 			(at 86.36 179.07 0)
 			(effects
 				(font
@@ -18339,22 +17123,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
 			(at 86.36 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 86.36 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -18386,34 +17160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 86.36 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 86.36 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 86.36 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 86.36 179.07 0)
 			(effects
 				(font
@@ -18454,7 +17201,7 @@
 		(at 96.52 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a693fe02-1acb-466c-88b2-666687ea1fd9")
@@ -18485,7 +17232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 96.52 128.27 0)
 			(effects
 				(font
@@ -18494,7 +17241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 96.52 128.27 0)
 			(effects
 				(font
@@ -18503,7 +17250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 96.52 128.27 0)
 			(effects
 				(font
@@ -18512,7 +17259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 96.52 128.27 0)
 			(effects
 				(font
@@ -18521,7 +17268,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 96.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 96.52 128.27 0)
 			(effects
 				(font
@@ -18578,7 +17334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 317.5 191.77 0)
 			(effects
 				(font
@@ -18587,7 +17343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 317.5 191.77 0)
 			(effects
 				(font
@@ -18596,17 +17352,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 317.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 317.5 191.77 0)
 			(effects
 				(font
@@ -18616,7 +17362,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 317.5 191.77 0)
 			(effects
 				(font
@@ -18626,7 +17372,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 317.5 191.77 0)
 			(effects
 				(font
@@ -18636,34 +17382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 317.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 317.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 317.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 317.5 191.77 0)
 			(effects
 				(font
@@ -18741,16 +17460,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 58.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 58.42 77.47 0)
 			(effects
@@ -18781,34 +17490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 58.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 58.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 58.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -18868,7 +17550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 114.3 214.63 0)
 			(effects
 				(font
@@ -18877,7 +17559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 114.3 214.63 0)
 			(effects
 				(font
@@ -18886,17 +17568,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 114.3 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-1.00MHRCT-ND  "
+		(property "DPN" "RMCF0603FT1M00CT-ND"
 			(at 114.3 214.63 0)
 			(effects
 				(font
@@ -18906,7 +17578,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 114.3 214.63 0)
 			(effects
 				(font
@@ -18916,7 +17588,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-071ML"
+		(property "MPN" "RMCF0603FT1M00"
 			(at 114.3 214.63 0)
 			(effects
 				(font
@@ -18926,34 +17598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 114.3 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 114.3 214.63 0)
 			(effects
 				(font
@@ -19098,16 +17743,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 73.66 87.63 0)
 			(effects
@@ -19138,34 +17773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 73.66 87.63 0)
 			(effects
 				(font
@@ -19292,7 +17900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 358.14 41.91 0)
 			(effects
 				(font
@@ -19301,7 +17909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 358.14 41.91 0)
 			(effects
 				(font
@@ -19310,17 +17918,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 358.14 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 358.14 41.91 0)
 			(effects
 				(font
@@ -19330,7 +17928,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 358.14 41.91 0)
 			(effects
 				(font
@@ -19340,7 +17938,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 358.14 41.91 0)
 			(effects
 				(font
@@ -19350,34 +17948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 358.14 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 358.14 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 358.14 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 358.14 41.91 0)
 			(effects
 				(font
@@ -19437,7 +18008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -19446,7 +18017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -19455,17 +18026,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 63.5 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -19475,7 +18036,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -19485,7 +18046,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT2K70"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -19495,34 +18056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 63.5 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 63.5 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 63.5 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -19582,7 +18116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 67.31 176.53 0)
 			(effects
 				(font
@@ -19591,7 +18125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 67.31 176.53 0)
 			(effects
 				(font
@@ -19600,17 +18134,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 67.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-100HRCT-ND "
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 67.31 176.53 0)
 			(effects
 				(font
@@ -19620,7 +18144,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 67.31 176.53 0)
 			(effects
 				(font
@@ -19630,7 +18154,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL "
+		(property "MPN" "RMCF0603FT100R"
 			(at 67.31 176.53 0)
 			(effects
 				(font
@@ -19640,34 +18164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 67.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 67.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 67.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 67.31 176.53 0)
 			(effects
 				(font
@@ -19728,7 +18225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 256.54 55.88 0)
 			(effects
 				(font
@@ -19737,7 +18234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 256.54 55.88 0)
 			(effects
 				(font
@@ -19746,7 +18243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "587-3473-1-ND"
 			(at 256.54 55.88 0)
 			(effects
 				(font
@@ -19755,7 +18252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "DigiKey"
 			(at 256.54 55.88 0)
 			(effects
 				(font
@@ -19764,7 +18261,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "Taiyo Yuden"
+			(at 256.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 256.54 55.88 0)
 			(effects
 				(font
@@ -19900,7 +18406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC Single Comparator W/REF, SC-70-5"
+		(property "Description" "Comparator with Voltage Reference Push-Pull SC-70-5"
 			(at 129.54 223.52 0)
 			(effects
 				(font
@@ -19909,7 +18415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "576-2927-1-ND"
 			(at 129.54 223.52 0)
 			(effects
 				(font
@@ -19918,7 +18424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "DigiKey"
 			(at 129.54 223.52 0)
 			(effects
 				(font
@@ -19927,7 +18433,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "Microchip"
+			(at 129.54 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MIC842LYC5-TR"
 			(at 129.54 223.52 0)
 			(effects
 				(font
@@ -19965,7 +18480,7 @@
 		(at 148.59 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bd710394-87e9-4598-aa29-dcb2ed9da83e")
@@ -19996,7 +18511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -20005,7 +18520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -20014,7 +18529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -20023,7 +18538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -20032,7 +18547,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 148.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -20089,7 +18613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 203.2 41.91 0)
 			(effects
 				(font
@@ -20098,7 +18622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 203.2 41.91 0)
 			(effects
 				(font
@@ -20107,17 +18631,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 203.2 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 203.2 41.91 0)
 			(effects
 				(font
@@ -20127,7 +18641,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 203.2 41.91 0)
 			(effects
 				(font
@@ -20137,7 +18651,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 203.2 41.91 0)
 			(effects
 				(font
@@ -20147,34 +18661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 203.2 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 203.2 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 203.2 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 203.2 41.91 0)
 			(effects
 				(font
@@ -20234,7 +18721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 106.68 224.79 0)
 			(effects
 				(font
@@ -20243,7 +18730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 106.68 224.79 0)
 			(effects
 				(font
@@ -20252,17 +18739,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 106.68 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-1444-1-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 106.68 224.79 0)
 			(effects
 				(font
@@ -20272,7 +18749,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Taiyo Yuden"
 			(at 106.68 224.79 0)
 			(effects
 				(font
@@ -20282,7 +18759,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 106.68 224.79 0)
 			(effects
 				(font
@@ -20292,34 +18769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 106.68 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 106.68 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 106.68 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 106.68 224.79 0)
 			(effects
 				(font
@@ -20397,16 +18847,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 58.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 58.42 87.63 0)
 			(effects
@@ -20437,34 +18877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 58.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 58.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 58.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 58.42 87.63 0)
 			(effects
 				(font
@@ -20542,16 +18955,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 63.5 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 63.5 77.47 0)
 			(effects
@@ -20582,34 +18985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 63.5 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 63.5 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 63.5 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 63.5 77.47 0)
 			(effects
 				(font
@@ -20669,7 +19045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 251.46 196.85 0)
 			(effects
 				(font
@@ -20678,7 +19054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 251.46 196.85 0)
 			(effects
 				(font
@@ -20687,7 +19063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DST" "DigiKey"
 			(at 251.46 196.85 0)
 			(effects
 				(font
@@ -20696,7 +19072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 251.46 196.85 0)
 			(effects
 				(font
@@ -20705,7 +19081,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 251.46 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT2K70"
 			(at 251.46 196.85 0)
 			(effects
 				(font
@@ -20771,7 +19156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 330.2 49.53 0)
 			(effects
 				(font
@@ -20780,7 +19165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 330.2 49.53 0)
 			(effects
 				(font
@@ -20789,17 +19174,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 330.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-0.0GRCT-ND"
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
 			(at 330.2 49.53 0)
 			(effects
 				(font
@@ -20809,7 +19184,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 330.2 49.53 0)
 			(effects
 				(font
@@ -20819,7 +19194,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603JR-070RL"
+		(property "MPN" "RMCF0603ZT0R00"
 			(at 330.2 49.53 0)
 			(effects
 				(font
@@ -20829,34 +19204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 330.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 330.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 330.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 330.2 49.53 0)
 			(effects
 				(font
@@ -21019,7 +19367,7 @@
 		(at 320.04 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d9ccbf28-a9eb-4a81-a37e-cbca74213047")
@@ -21050,7 +19398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 320.04 77.47 0)
 			(effects
 				(font
@@ -21059,7 +19407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 320.04 77.47 0)
 			(effects
 				(font
@@ -21068,7 +19416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 320.04 77.47 0)
 			(effects
 				(font
@@ -21077,7 +19425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 320.04 77.47 0)
 			(effects
 				(font
@@ -21086,7 +19434,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 320.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 320.04 77.47 0)
 			(effects
 				(font
@@ -21143,7 +19500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BD71A226ME44-01.pdf"
 			(at 381 189.23 0)
 			(effects
 				(font
@@ -21152,22 +19509,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X7T 0805 (2012 Metric)"
 			(at 381 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 381 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -21181,7 +19528,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Murata Electronics"
 			(at 381 189.23 0)
 			(effects
 				(font
@@ -21201,34 +19548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 381 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 381 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 381 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 381 189.23 0)
 			(effects
 				(font
@@ -21306,16 +19626,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 88.9 77.47 0)
 			(effects
@@ -21346,34 +19656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 88.9 77.47 0)
 			(effects
 				(font
@@ -21433,7 +19716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX7310.pdf"
 			(at 119.38 123.19 0)
 			(effects
 				(font
@@ -21442,22 +19725,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "I/O Expander 8 I2C, SMBus 400 kHz 16-TQFN (4x4)"
 			(at 119.38 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 119.38 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -21471,7 +19744,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Maxim"
+		(property "MFR" "Analog Devices Inc./Maxim Integrated"
 			(at 119.38 123.19 0)
 			(effects
 				(font
@@ -21481,7 +19754,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MAX7310ATE"
+		(property "MPN" "MAX7310ATE+"
 			(at 119.38 123.19 0)
 			(effects
 				(font
@@ -21491,34 +19764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 119.38 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 119.38 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 119.38 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 119.38 123.19 0)
 			(effects
 				(font
@@ -21681,7 +19927,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 205.74 52.07 0)
 			(effects
 				(font
@@ -21690,7 +19936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 205.74 52.07 0)
 			(effects
 				(font
@@ -21699,22 +19945,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-Channel 30V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 205.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 205.74 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -21748,34 +19984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 205.74 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 205.74 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 205.74 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 205.74 52.07 0)
 			(effects
 				(font
@@ -21838,7 +20047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 90.17 238.76 0)
 			(effects
 				(font
@@ -21847,7 +20056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 90.17 238.76 0)
 			(effects
 				(font
@@ -21856,17 +20065,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 90.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT665KCT-ND"
 			(at 90.17 238.76 0)
 			(effects
 				(font
@@ -21876,7 +20075,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 90.17 238.76 0)
 			(effects
 				(font
@@ -21886,7 +20085,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT665K"
 			(at 90.17 238.76 0)
 			(effects
 				(font
@@ -21896,34 +20095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 90.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 90.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 90.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 90.17 238.76 0)
 			(effects
 				(font
@@ -21983,7 +20155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
 			(at 86.36 223.52 0)
 			(effects
 				(font
@@ -21992,16 +20164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
+		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
 			(at 86.36 223.52 0)
 			(effects
 				(font
@@ -22039,34 +20202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 86.36 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 86.36 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 86.36 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 86.36 223.52 0)
 			(effects
 				(font
@@ -22107,7 +20243,7 @@
 		(at 403.86 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e996a920-25a5-4d93-a6c9-8022252b6b72")
@@ -22138,7 +20274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 403.86 36.83 0)
 			(effects
 				(font
@@ -22147,7 +20283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 403.86 36.83 0)
 			(effects
 				(font
@@ -22156,7 +20292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 403.86 36.83 0)
 			(effects
 				(font
@@ -22165,7 +20301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 403.86 36.83 0)
 			(effects
 				(font
@@ -22174,7 +20310,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 403.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 403.86 36.83 0)
 			(effects
 				(font
@@ -22200,7 +20345,7 @@
 		(at 193.04 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ebb1df05-eb63-4344-bbee-7129c0302953")
@@ -22231,7 +20376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 193.04 90.17 0)
 			(effects
 				(font
@@ -22240,7 +20385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 193.04 90.17 0)
 			(effects
 				(font
@@ -22249,7 +20394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "N/A"
 			(at 193.04 90.17 0)
 			(effects
 				(font
@@ -22258,7 +20403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "N/A"
 			(at 193.04 90.17 0)
 			(effects
 				(font
@@ -22267,7 +20412,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "N/A"
+			(at 193.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 193.04 90.17 0)
 			(effects
 				(font
@@ -22342,16 +20496,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "DPN" "1276-4275-1-ND"
 			(at 88.9 87.63 0)
 			(effects
@@ -22382,34 +20526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -22668,7 +20785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2313/ESD_COG_Dielectric.pdf"
 			(at 350.52 44.45 0)
 			(effects
 				(font
@@ -22677,7 +20794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 nF (10000pF) ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 350.52 44.45 0)
 			(effects
 				(font
@@ -22686,7 +20803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "DPN" "399-14102-1-ND"
 			(at 350.52 44.45 0)
 			(effects
 				(font
@@ -22695,7 +20812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "DST" "DigiKey"
 			(at 350.52 44.45 0)
 			(effects
 				(font
@@ -22704,7 +20821,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MFR" "KEMET"
+			(at 350.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C103J3GECAUTO"
 			(at 350.52 44.45 0)
 			(effects
 				(font
@@ -22752,7 +20878,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "MOSFET-PCH-SOT23-6"
+		(property "Value" "DMP3050LVT-7"
 			(at 208.28 33.02 90)
 			(effects
 				(font
@@ -22761,7 +20887,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:SOT23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 210.82 39.37 0)
 			(effects
 				(font
@@ -22770,7 +20896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVT.pdf"
 			(at 210.82 39.37 0)
 			(effects
 				(font
@@ -22779,22 +20905,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-Channel Power MOSFET, SOT-23-6"
 			(at 210.82 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 210.82 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -22828,34 +20944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 210.82 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 210.82 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 210.82 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 210.82 39.37 0)
 			(effects
 				(font
@@ -23060,7 +21149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1124/UCR18_Series.pdf"
 			(at 287.02 36.83 0)
 			(effects
 				(font
@@ -23069,7 +21158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense Thick Film"
 			(at 287.02 36.83 0)
 			(effects
 				(font
@@ -23078,17 +21167,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 287.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "CSR1206FTR100CT-ND"
+		(property "DPN" "846-UCR18EVHFLR100CT-ND"
 			(at 287.02 36.83 0)
 			(effects
 				(font
@@ -23098,7 +21177,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Rohm Semiconductor"
 			(at 287.02 36.83 0)
 			(effects
 				(font
@@ -23108,7 +21187,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CSR1206FTR100"
+		(property "MPN" "UCR18EVHFLR100"
 			(at 287.02 36.83 0)
 			(effects
 				(font
@@ -23118,34 +21197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 287.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 287.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 287.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 287.02 36.83 0)
 			(effects
 				(font
@@ -23205,7 +21257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 312.42 87.63 0)
 			(effects
 				(font
@@ -23214,7 +21266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 312.42 87.63 0)
 			(effects
 				(font
@@ -23223,17 +21275,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 312.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 312.42 87.63 0)
 			(effects
 				(font
@@ -23243,7 +21285,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 312.42 87.63 0)
 			(effects
 				(font
@@ -23253,7 +21295,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 312.42 87.63 0)
 			(effects
 				(font
@@ -23263,34 +21305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 312.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 312.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 312.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 312.42 87.63 0)
 			(effects
 				(font
