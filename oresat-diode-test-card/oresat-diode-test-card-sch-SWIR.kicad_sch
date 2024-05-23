@@ -5174,7 +5174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv6001"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv6001-q1"
 			(at 134.62 133.35 0)
 			(effects
 				(font
@@ -5183,7 +5183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5"
+		(property "Description" "General Purpose Amplifier 1 Circuit Rail-to-Rail SC-70-5"
 			(at 134.62 133.35 0)
 			(effects
 				(font
@@ -5192,7 +5192,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "296-45125-1-ND"
+		(property "DPN" "296-51689-1-ND"
 			(at 134.62 133.35 0)
 			(effects
 				(font
@@ -5219,7 +5219,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TLV6001UIDBVR"
+		(property "MPN" "TLV6001QDCKRQ1"
 			(at 134.62 133.35 0)
 			(effects
 				(font
@@ -8507,7 +8507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv6001"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv6001-q1"
 			(at 256.54 185.42 0)
 			(effects
 				(font
@@ -8516,7 +8516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5"
+		(property "Description" "General Purpose Amplifier 1 Circuit Rail-to-Rail SC-70-5"
 			(at 256.54 185.42 0)
 			(effects
 				(font
@@ -8525,7 +8525,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "296-45125-1-ND"
+		(property "DPN" "296-51689-1-ND"
 			(at 256.54 185.42 0)
 			(effects
 				(font
@@ -8552,7 +8552,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TLV6001UIDBVR"
+		(property "MPN" "TLV6001QDCKRQ1"
 			(at 256.54 185.42 0)
 			(effects
 				(font
@@ -9331,7 +9331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv6001"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv6001-q1"
 			(at 269.24 59.69 0)
 			(effects
 				(font
@@ -9340,7 +9340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5"
+		(property "Description" "General Purpose Amplifier 1 Circuit Rail-to-Rail SC-70-5"
 			(at 269.24 59.69 0)
 			(effects
 				(font
@@ -9349,7 +9349,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "296-45125-1-ND"
+		(property "DPN" "296-51689-1-ND"
 			(at 269.24 59.69 0)
 			(effects
 				(font
@@ -9376,7 +9376,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TLV6001UIDBVR"
+		(property "MPN" "TLV6001QDCKRQ1"
 			(at 269.24 59.69 0)
 			(effects
 				(font
